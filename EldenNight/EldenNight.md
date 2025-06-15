@@ -61,6 +61,6 @@
 - flame G 370 +2 +giant
 - flame G 398 +giant +hurt
 
-![alt text](img/recluse-done-testing.png)
+![alt text](Img/recluse-done-testing.png)
 
 
