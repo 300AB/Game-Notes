@@ -1,12 +1,4 @@
-
-# Start
-**words**
-[link desc in Page-2-Night.md](Page-2-Night.md)
-1. Item 1
-2. Item 2
-
-
-## Fire dmg w/ recluse: lvl 1 w/ flame sling
+# Fire dmg w/ recluse: lvl 1 w/ flame sling
 
 1. 157 [ +2 x 1] (9)
 2. 155 [+1 x 1] (7)
