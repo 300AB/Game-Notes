@@ -1,66 +1,39 @@
-# Fire dmg w/ recluse: lvl 1 w/ flame sling
 
-1. 157 [ +2 x 1] (9)
-2. 155 [+1 x 1] (7)
-3. 154 [ +0 x 1] (6)
-4. 148 [ N/A] - Base
+### Fire Damage Testing
+| Level: 1 | `     ` Fire Damage with Recluse Using Flame Sling `     ` | Level: 15 |
+| :-:      | :-:                                                        | :-:       |
 
-### One Buff
+| DMG | Buff | Count | Diff | `          ` | DMG | Buff | Count | Diff |
+| :-: | :-:  | :-:   | :-:  | :-:      | :-: | :-:  | :-:   | :-:  |
+| 123 | Base | N/A   | 0    |          | 203 | Base | N/A   | 0    |
+| 128 | + 0  | 1     | 5    |          | 212 | + 0  | 1     | 9    |
+| 129 | + 1  | 1     | 6    |          | 214 | + 1  | 1     | 11   |
+| 131 | + 2  | 1     | 8    |          | 216 | + 2  | 1     | 13   |
+| 134 | + 0  | 2     | 11   |          | 222 | + 0  | 2     | 19   |
+| 139 | + 2  | 2     | 16   |          | 230 | + 2  | 2     | 27   |
+| 148 | + 2  | 3     | 25   |          | 244 | + 2  | 3     | 41   |
+### Peak Fire Buff Testing
+| Level: 1 | `                         ` Fire Damage with Recluse DPS Test `                         ` | Level: 15 |
+| :-:      | :-:                                                        | :-:       | 
 
-- **lvl 1**
-- 123 base
-- 128   + 0
-- 129   + 1
-- 131   + 2
----
-
-- **lvl 15**
-- 203 base
-- 212 + 0
-- 214 + 1
-- 216 + 2
-
-### Two Buffs
-- **lvl 1**
-- 134 + 0
-- 139 + 2
----
-
-- **lvl 15**
-- 222 + 0
-- 230 + 2
+| Spell         | Hit | Explosion | Buff  | Buff |     | Spell         | Hit | Explosion | Buff  | Buff |
+| :-:           | :-: | :-:       | :-:   | :-:  | :-: | :-:           | :-: | :-:       | :-:   | :-:  |
+| Roiling Magma | 153 | 208       | +2    | +2   |     | Roiling Magma | 253 | 343       | +2    | +2   |
+| Roiling Magma | 156 | 212       | Sigil | Hurt |     | Roiling Magma | 247 | 350       | Sigil | Hurt |
+| Roiling Magma | 165 | 225       | +2    | Hurt |     | Roiling Magma | 273 | 371       | +2    | Hurt |
 
 
-### Three Buffs
-- **lvl 1**
-- 148 + 2
----
+| Level: 1 | `                                                                                     ` | Level: 15 |
+| :-:      | :-:                                                                                     | :-:       |
 
-- **lvl 15**
-- 244 + 2
+| Spell             | DMG | Buff | Buff  | `                  ` | Spell             | DMG | Buff | Buff  |
+| :-:               | :-: | :-:  | :-:   | :-:                  | :-:               | :-: | :-:  | :-:   |
+| Flame Sling Giant | 213 | +2   | +2    |                      | Flame Sling Giant | 351 | +2   | +2    |
+| Flame Sling Giant | 224 | +2   | Giant |                      | Flame Sling Giant | 370 | +2   | Giant |
+| Flame Sling Giant | 241 | Hurt | Giant |                      | Flame Sling Giant | 398 | Hurt | Giant |
 
-### DPS Test
-- **lvl 1**
-- magma R 153h 208e +2 x2
-- magma R 156h 212e +sigil +hurt
-- magma R 165h 225e +2 +hurt
--
-- flame G 213 +2 x2
-- flame G 224 +2 +giant
-- flame G 241 +giant +hurt
-
-
-
----
-- **lvl 15**
-- magma R 253h 343e +2 x2
-- magma R 247h 350e +sigil +hurt
-- magma R 273h 371e +2 +hurt
--
-- flame G 351 +2 x2
-- flame G 370 +2 +giant
-- flame G 398 +giant +hurt
-
-![alt text](img/recluse-done-testing.png)
+<p align="center">
+  <img src="img/recluse-done-testing.png" alt="alt text">
+</p>
 
 
