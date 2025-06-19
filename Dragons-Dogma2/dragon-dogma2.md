@@ -74,3 +74,44 @@
 | 39    | 23     | 5       | 5        | 3       | 4      | 3          |
 | 40    | 20     | 7       | 1        | 4       | 3      | 0          |
 
+|   Level | Peak Stat   | Peak %   | Best Vocation   |
+|--------:|:------------|:---------|:----------------|
+|       2 | Stamina     | 56.2%    | Thief           |
+|       3 | Stamina     | 68.8%    | Thief           |
+|       4 | Stamina     | 81.2%    | Thief           |
+|       5 | Stamina     | 68.8%    | Thief           |
+|       6 | Stamina     | 100.0%   | Thief           |
+|       7 | Stamina     | 81.2%    | Thief           |
+|       8 | Stamina     | 62.5%    | Thief           |
+|       9 | Stamina     | 75.0%    | Thief           |
+|      10 | Stamina     | 81.2%    | Thief           |
+|      11 | Stamina     | 75.0%    | Thief           |
+|      12 | Magick      | 87.5%    | Sorcerer        |
+|      13 | Health      | 90.5%    | Warrior         |
+|      14 | Stamina     | 75.0%    | Thief           |
+|      15 | Stamina     | 93.8%    | Thief           |
+|      16 | Stamina     | 81.2%    | Thief           |
+|      17 | Magick      | 75.0%    | Sorcerer        |
+|      18 | Strength    | 70.0%    | Warrior         |
+|      19 | Magick      | 75.0%    | Sorcerer        |
+|      20 | Magick Def  | 100.0%   | Sorcerer        |
+|      21 | Defense     | 100.0%   | Fighter         |
+|      22 | Health      | 76.2%    | Warrior         |
+|      23 | Magick      | 87.5%    | Sorcerer        |
+|      24 | Strength    | 100.0%   | Warrior         |
+|      25 | Health      | 64.3%    | Warrior         |
+|      26 | Magick Def  | 60.0%    | Sorcerer        |
+|      27 | Magick      | 75.0%    | Sorcerer        |
+|      28 | Health      | 100.0%   | Warrior         |
+|      29 | Magick Def  | 80.0%    | Sorcerer        |
+|      30 | Strength    | 60.0%    | Warrior         |
+|      31 | Magick      | 100.0%   | Sorcerer        |
+|      32 | Magick Def  | 70.0%    | Sorcerer        |
+|      33 | Strength    | 80.0%    | Warrior         |
+|      34 | Magick      | 87.5%    | Sorcerer        |
+|      35 | Magick Def  | 70.0%    | Sorcerer        |
+|      36 | Strength    | 70.0%    | Warrior         |
+|      37 | Magick      | 62.5%    | Sorcerer        |
+|      38 | Health      | 85.7%    | Warrior         |
+|      39 | Health      | 54.8%    | Warrior         |
+|      40 | Health      | 47.6%    | Warrior         |
