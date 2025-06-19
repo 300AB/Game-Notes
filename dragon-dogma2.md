@@ -28,7 +28,7 @@
 | Sorcerer           | 25            | 27          | 3        |
 | Warrior            | 28            | 28          | 1        |
 | Sorcerer           | 29            | 31          | 3        |
-| Theif              | 32            | 33          | 2        |
+| Thief              | 32            | 33          | 2        |
 | Sorcerer           | 34            | 35          | 2        |
-| Theif              | 36            | 37          | 2        |
+| Thief              | 36            | 37          | 2        |
 
