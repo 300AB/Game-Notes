@@ -8,18 +8,19 @@ fallback_plan = [
     ("Mage", 11, 2),
     ("Fighter", 13, 3),
     ("Warrior", 16, 3),
-    ("Sorcerer", 19, 3),
-    ("Warrior", 28, 1),
-    ("Sorcerer", 29, 3),
-    ("Thief", 32, 2),
-    ("Sorcerer", 34, 2),
-    ("Thief", 36, 2),
+    ("Sorcerer", 19, 2),
+    ("Sorcerer", 20, 1),
+#    ("Warrior", 28, 1),
+#    ("Sorcerer", 29, 3),
+#    ("Thief", 32, 2),
+#    ("Sorcerer", 34, 2),
+#    ("Thief", 36, 2),
 ]
 
 # === CONFIG ===
 stat_file = "statData.md"
 show_level_log_first = False  # Show levels used & detailed log before summary
-show_level_used = False        # Toggle on/off Levels Used table
+show_level_used = False       # Toggle on/off Levels Used table
 
 # === VOCATION MULTIPLIERS ===
 vocations = {
@@ -36,6 +37,7 @@ vocations = {
 }
 
 stat_cols = ["Health", "Stamina", "Strength", "Defense", "Magick", "Magick Def"]
+short_cols = ["HP", "Stamina", "Str", "Def", "Magick", "Magick Def"]
 base_level_1 = {
     "Health": 500,
     "Stamina": 600,
@@ -68,6 +70,7 @@ for voc, start, count in fallback_plan:
 total_stats = {stat: base_level_1[stat] for stat in stat_cols}
 included_levels = []
 per_level_log = []
+running_totals = {stat: 0.0 for stat in stat_cols}
 
 for _, row in df.iterrows():
     lvl = row["Level"]
@@ -81,8 +84,9 @@ for _, row in df.iterrows():
         base_gain = row[stat]
         modded_gain = base_gain * mults[i]
         total_stats[stat] += modded_gain
+        running_totals[stat] += modded_gain
         gains.append(modded_gain)
-    per_level_log.append((lvl, voc, gains))
+    per_level_log.append((lvl, voc, gains, running_totals.copy()))
 
 # === FORMATTERS ===
 def format_stat_table(stats_dict):
@@ -99,12 +103,12 @@ def format_level_table(levels):
 
 def format_detailed_log(log):
     header = "===== Per-Level Stat Gains (With Vocation Mod) ======="
-    table = ["| Level | Vocation | " + " | ".join(stat_cols) + " |"]
-    divider = "|:-----:|:--------:|" + "|".join([":--------:" for _ in stat_cols]) + "|"
-    table.insert(1, divider)
-    for lvl, voc, gains in sorted(log):
-        stat_cells = " | ".join(f"{g:.1f}".rjust(8) for g in gains)
-        table.append(f"|  {lvl:<3} | {voc:<8} | {stat_cells} |")
+    table = ["| Lvl | Vocation | " + " | ".join(short_cols) + " | Growth |",
+             "|:---:|:--------:|" + "|".join([":----:" if c != "Magick Def" else ":----------:" for c in short_cols]) + "|:-------:|"]
+    for lvl, voc, gains, _ in log:
+        growth = f"{sum(gains):7.1f}"
+        row_gains = " | ".join(f"{g:5.1f}" for g in gains)
+        table.append(f"| {lvl:<3} | {voc:<8} | {row_gains} | {growth} |")
     return "\n".join([header] + table)
 
 # === OUTPUT ===
