@@ -1,5 +1,5 @@
-| Vocation           | Start Level   | End Level   | Levels   |
-| :----------------: | :-----------: | :---------: | :------: |
+| Vocation           | Start Level   | Levels   |
+| :----------------: | :-----------: | :------: |
 | Archer             | 0              10       |
 | Mage               | 11             2        |
 | Fighter            | 13             3        |
