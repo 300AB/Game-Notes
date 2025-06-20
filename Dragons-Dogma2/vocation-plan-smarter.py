@@ -8,13 +8,13 @@ fallback_plan = [
     ("Mage", 11, 2),
     ("Fighter", 13, 3),
     ("Warrior", 16, 3),
-    ("Sorcerer", 19, 2),
-    ("Sorcerer", 20, 1),
-#    ("Warrior", 28, 1),
-#    ("Sorcerer", 29, 3),
-#    ("Thief", 32, 2),
-#    ("Sorcerer", 34, 2),
-#    ("Thief", 36, 2),
+#    ("Sorcerer", 19, 2),
+    ("Sorcerer", 19, 3),
+    ("Warrior", 28, 1),
+    ("Sorcerer", 29, 3),
+    ("Thief", 32, 2),
+    ("Sorcerer", 34, 2),
+    ("Thief", 36, 2),
 ]
 
 # === CONFIG ===
