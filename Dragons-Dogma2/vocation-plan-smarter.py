@@ -38,7 +38,7 @@ stat_path = os.path.join(script_dir, stat_file)
 # === LOAD STAT GAINS FROM MARKDOWN ===
 with open(stat_path) as f:
     lines = f.readlines()
-data_lines = lines[2:]  # skip header + divider
+data_lines = lines[2:]
 data_str = "".join(data_lines)
 df = pd.read_csv(StringIO(data_str), sep="|", skipinitialspace=True, header=None)
 df = df.dropna(axis=1, how='all')
@@ -46,8 +46,7 @@ df.columns = ["Level"] + stat_cols
 df = df.astype(str).apply(lambda col: col.str.strip())
 df[["Level"] + stat_cols] = df[["Level"] + stat_cols].apply(pd.to_numeric)
 
-# === IN-CODE LEVELING PLAN ===
-# Format: ("Vocation", StartLevel, Count)
+# === LEVELING PLAN ===
 fallback_plan = [
     ("Archer", 2, 9),
     ("Mage", 11, 2),
@@ -56,52 +55,43 @@ fallback_plan = [
     ("Sorcerer", 19, 2),
 ]
 
-# === EXPAND PLAN TO PER-LEVEL MAP ===
+# === EXPAND TO LEVEL MAP ===
 level_to_voc = {}
 for voc, start, count in fallback_plan:
     for lvl in range(start, start + count):
         level_to_voc[lvl] = voc
 
-# === CALCULATE TOTAL STATS WITH VOC MULTIPLIERS AND BASE ===
+# === CALCULATE STATS ===
 total_stats = {stat: base_level_1[stat] for stat in stat_cols}
 included_levels = []
 
 for _, row in df.iterrows():
     lvl = row["Level"]
     if lvl == 1:
-        continue  # base level 1 already counted
+        continue
     if lvl not in level_to_voc:
         continue
     voc = level_to_voc[lvl]
     included_levels.append((lvl, voc))
-    multipliers = vocations.get(voc, [1]*6)
+    mults = vocations.get(voc, [1]*6)
     for i, stat in enumerate(stat_cols):
-        total_stats[stat] += row[stat] * multipliers[i]
+        total_stats[stat] += row[stat] * mults[i]
 
-# === MARKDOWN OUTPUT ===
+# === FORMAT OUTPUT ===
 def format_stat_table(stats_dict):
-    header = "| Stat        | Total Gain |"
-    divider = "|:-----------:|:----------:|"
-    rows = [f"| {stat.ljust(11)} | {val:>10.2f} |" for stat, val in stats_dict.items()]
+    header = "| Stat        | Total Gain  |"
+    divider = "|:-----------:|:-----------:|"
+    rows = [f"| {stat:<11} | {val:>11.2f} |" for stat, val in stats_dict.items()]
     return "\n".join([header, divider] + rows)
 
-def format_levels_used(levels):
-    lines = [
-        "===== Levels Used =======",
-        "|:---------:|:--------:|",
-        "| Level     | Vocation |"
-    ]
-    for lvl, voc in levels:
-        # Align spacing: pad lvl number to 2 digits, pad vocation left with spaces to 8 chars
-        lvl_str = f"Level {lvl}:".ljust(9)
-        voc_str = voc.ljust(8)
-        lines.append(f"| {lvl_str} | {voc_str} |")
-    return "\n".join(lines)
+def format_level_table(levels):
+    header = "===== Levels Used ======="
+    table_header = "| Level     | Vocation |\n|:---------:|:--------:|"
+    rows = [f"| Level {lvl:<2}  | {voc:<8} |" for lvl, voc in sorted(levels)]
+    return "\n".join([header, table_header] + rows)
 
-
+# === OUTPUT ===
 print("== Net Stat Gains With Plan ==")
 print(format_stat_table(total_stats))
-
-if included_levels:
-    print()
-    print(format_levels_used(sorted(included_levels)))
+print()
+print(format_level_table(included_levels))

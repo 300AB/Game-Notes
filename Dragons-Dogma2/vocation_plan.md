@@ -42,3 +42,55 @@
 | Warrior       | 350 | 0       | 60  | 20  | 40     | 40      | 20   | 300    | 10     |
 | Warfarer      | 0   | 0       | 0   | 0   | 0      | 0       | 20   | 0      | 0      |
 
+== Stat Totals with Base + Vocation ==  
+| Stat       | Total   | Added from Vocation |
+| :-----:    | :-----: | :-----------------: |
+| Health     | 1168.80 | 668.80              |
+| Stamina    | 942.00  | 342.00              |
+| Strength   | 137.30  | 97.30               |
+| Defense    | 137.30  | 97.30               |
+| Magick     | 255.60  | 225.60              |
+| Magick Def | 232.50  | 202.50              |
+
+| Stat       | Total   | Added from Vocation | 
+| :-----:    | :-----: | :-----------------: | 
+| Health     | 1168.80  | 668.80              |
+| Stamina    | 942.00  | 342.00              | 
+| Strength   | 137.30  | 97.30              |  
+| Defense    | 137.30  | 97.30              |  
+| Magick     | 255.60  | 225.60              | 
+| Magick Def | 232.50  | 202.50              | 
+
+
+== Net Stat Gains With Plan ==
+| Stat        | Total Gain  |
+|:-----------:|:-----------:|
+| Health      |      921.20 |
+| Stamina     |      828.60 |
+| Strength    |      117.10 |
+| Defense     |      107.40 |
+| Magick      |       98.40 |
+| Magick Def  |       85.80 |
+
+===== Levels Used =======    
+| Level     | Vocation |     
+|:---------:|:--------:|     
+| Level 2   | Archer   |     
+| Level 3   | Archer   |     
+| Level 4   | Archer   |     
+| Level 5   | Archer   |     
+| Level 6   | Archer   |     
+| Level 7   | Archer   |     
+| Level 8   | Archer   |     
+| Level 9   | Archer   |     
+| Level 10  | Archer   |     
+| Level 11  | Mage     |     
+| Level 12  | Mage     |     
+| Level 13  | Fighter  |     
+| Level 14  | Fighter  |     
+| Level 15  | Fighter  |     
+| Level 16  | Warrior  |
+| Level 17  | Warrior  |
+| Level 18  | Warrior  |
+| Level 19  | Sorcerer |
+| Level 20  | Sorcerer |

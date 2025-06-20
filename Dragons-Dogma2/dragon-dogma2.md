@@ -32,6 +32,8 @@
 | Sorcerer           | 34            | 35          | 2        |
 | Thief              | 36            | 37          | 2        |
 
+## Stat Data Lvl 2-40
+
 | Level | Health | Stamina | Strength | Defense | Magick | Magick Def |
 |-------|--------|---------|----------|---------|--------|------------|
 | 2     | 18     | 9       | 3        | 3       | 2      | 2          |
@@ -73,6 +75,50 @@
 | 38    | 36     | 8       | 1        | 5       | 1      | 4          |
 | 39    | 23     | 5       | 5        | 3       | 4      | 3          |
 | 40    | 20     | 7       | 1        | 4       | 3      | 0          |
+
+## Dominent Vocation 3
+
+| Lvl | Stat.1 | %.1 | V.1 | Stat.2 | %.2 | V.2 | Stat.3 | %.3 | V.3 | Stat.4 | %.4 | V.4 | Avg |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 2 | Sta | 56.2% | Thief | Hp | 42.9% | War | Str | 30.0% | War | Def | 30.0% | Fight | War |   
+| 3 | Sta | 68.8% | Thief | Mag | 50.0% | Sorc | Hp | 47.6% | War | MgD | 40.0% | Sorc | Sorc |  
+| 4 | Sta | 81.2% | Thief | Hp | 50.0% | War | Def | 40.0% | Fight | Mag | 37.5% | Sorc | Thief |
+| 5 | Sta | 68.8% | Thief | Hp | 42.9% | War | MgD | 40.0% | Sorc | Mag | 37.5% | Sorc | Sorc |  
+| 6 | Sta | 100.0% | Thief | Mag | 62.5% | Sorc | Hp | 54.8% | War | MgD | 30.0% | Sorc | Sorc | 
+| 7 | Sta | 81.2% | Thief | Hp | 47.6% | War | Str | 40.0% | War | Def | 40.0% | Fight | War |   
+| 8 | Sta | 62.5% | Thief | Hp | 40.5% | War | Mag | 37.5% | Sorc | Str | 30.0% | War | War |    
+| 9 | Sta | 75.0% | Thief | Hp | 54.8% | War | MgD | 50.0% | Sorc | Mag | 37.5% | Sorc | Sorc |  
+| 10 | Sta | 81.2% | Thief | Str | 40.0% | War | Def | 40.0% | Fight | Mag | 37.5% | Sorc | Thief |
+| 11 | Sta | 75.0% | Thief | Hp | 66.7% | War | Mag | 37.5% | Sorc | MgD | 30.0% | Sorc | Sorc |
+| 12 | Mag | 87.5% | Sorc | Sta | 68.8% | Thief | Str | 60.0% | War | Hp | 47.6% | War | War |
+| 13 | Hp | 90.5% | War | MgD | 60.0% | Sorc | Str | 40.0% | War | Sta | 37.5% | Thief | War |
+| 14 | Sta | 75.0% | Thief | Mag | 62.5% | Sorc | Str | 60.0% | War | Def | 40.0% | Fight | Thief |
+| 15 | Sta | 93.8% | Thief | Mag | 50.0% | Sorc | Hp | 47.6% | War | MgD | 40.0% | Sorc | Sorc |
+| 16 | Sta | 81.2% | Thief | MgD | 70.0% | Sorc | Def | 50.0% | Fight | Str | 40.0% | War | Thief |
+| 17 | Mag | 75.0% | Sorc | Hp | 38.1% | War | Sta | 37.5% | Thief | Def | 20.0% | Fight | Sorc |
+| 18 | Str | 70.0% | War | Sta | 68.8% | Thief | Hp | 66.7% | War | Def | 50.0% | Fight | War |
+| 19 | Mag | 75.0% | Sorc | Sta | 56.2% | Thief | Hp | 52.4% | War | Str | 40.0% | War | War |
+| 20 | MgD | 100.0% | Sorc | Mag | 87.5% | Sorc | Def | 30.0% | Fight | Sta | 25.0% | Thief | Sorc |
+| 21 | Def | 100.0% | Fight | Hp | 50.0% | War | Str | 40.0% | War | Sta | 37.5% | Thief | War |
+| 22 | Hp | 76.2% | War | Sta | 62.5% | Thief | Def | 60.0% | Fight | MgD | 50.0% | Sorc | War |
+| 23 | Mag | 87.5% | Sorc | Def | 70.0% | Fight | Hp | 38.1% | War | Sta | 31.2% | Thief | Sorc |
+| 24 | Str | 100.0% | War | Mag | 50.0% | Sorc | Hp | 33.3% | War | Def | 30.0% | Fight | War |
+| 25 | Hp | 64.3% | War | Sta | 62.5% | Thief | MgD | 60.0% | Sorc | Mag | 37.5% | Sorc | Sorc |
+| 26 | MgD | 60.0% | Sorc | Hp | 59.5% | War | Def | 50.0% | Fight | Str | 50.0% | War | War |
+| 27 | Mag | 75.0% | Sorc | Sta | 56.2% | Thief | Str | 30.0% | War | Hp | 26.2% | War | War |
+| 28 | Hp | 100.0% | War | Mag | 75.0% | Sorc | MgD | 40.0% | Sorc | Def | 40.0% | Fight | Sorc |
+| 29 | MgD | 80.0% | Sorc | Sta | 62.5% | Thief | Hp | 61.9% | War | Def | 60.0% | Fight | Sorc |
+| 30 | Str | 60.0% | War | Sta | 50.0% | Thief | Mag | 50.0% | Sorc | Hp | 42.9% | War | War |
+| 31 | Mag | 100.0% | Sorc | Sta | 31.2% | Thief | Hp | 28.6% | War | Str | 20.0% | War | War |
+| 32 | MgD | 70.0% | Sorc | Hp | 61.9% | War | Sta | 56.2% | Thief | Def | 50.0% | Fight | Sorc |
+| 33 | Str | 80.0% | War | Hp | 47.6% | War | MgD | 40.0% | Sorc | Sta | 37.5% | Thief | War |
+| 34 | Mag | 87.5% | Sorc | Hp | 83.3% | War | Def | 40.0% | Fight | Sta | 25.0% | Thief | Sorc |
+| 35 | MgD | 70.0% | Sorc | Mag | 50.0% | Sorc | Hp | 35.7% | War | Def | 30.0% | Fight | Sorc |
+| 36 | Str | 70.0% | War | Hp | 57.1% | War | Sta | 56.2% | Thief | Def | 50.0% | Fight | War |
+| 37 | Mag | 62.5% | Sorc | Sta | 43.8% | Thief | MgD | 40.0% | Sorc | Str | 40.0% | War | Sorc |
+| 38 | Hp | 85.7% | War | Sta | 50.0% | Thief | Def | 50.0% | Fight | MgD | 40.0% | Sorc | War |
+| 39 | Hp | 54.8% | War | Str | 50.0% | War | Mag | 50.0% | Sorc | Sta | 31.2% | Thief | War |
+| 40 | Hp | 47.6% | War | Sta | 43.8% | Thief | Def | 40.0% | Fight | Mag | 37.5% | Sorc | War |
 
 |   Level | Peak Stat   | Peak %   | Best Vocation   |
 |--------:|:------------|:---------|:----------------|
