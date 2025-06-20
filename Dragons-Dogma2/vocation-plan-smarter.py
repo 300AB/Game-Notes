@@ -2,8 +2,24 @@ import os
 import pandas as pd
 from io import StringIO
 
+# === LEVELING PLAN ===
+fallback_plan = [
+    ("Archer", 2, 9),
+    ("Mage", 11, 2),
+    ("Fighter", 13, 3),
+    ("Warrior", 16, 3),
+    ("Sorcerer", 19, 3),
+    ("Warrior", 28, 1),
+    ("Sorcerer", 29, 3),
+    ("Thief", 32, 2),
+    ("Sorcerer", 34, 2),
+    ("Thief", 36, 2),
+]
+
 # === CONFIG ===
 stat_file = "statData.md"
+show_level_log_first = False  # Show levels used & detailed log before summary
+show_level_used = False        # Toggle on/off Levels Used table
 
 # === VOCATION MULTIPLIERS ===
 vocations = {
@@ -20,8 +36,6 @@ vocations = {
 }
 
 stat_cols = ["Health", "Stamina", "Strength", "Defense", "Magick", "Magick Def"]
-
-# === BASE LEVEL 1 STATS ===
 base_level_1 = {
     "Health": 500,
     "Stamina": 600,
@@ -31,11 +45,9 @@ base_level_1 = {
     "Magick Def": 30
 }
 
-# === Get file path ===
+# === LOAD STATS ===
 script_dir = os.path.dirname(os.path.abspath(__file__))
 stat_path = os.path.join(script_dir, stat_file)
-
-# === LOAD STAT GAINS FROM MARKDOWN ===
 with open(stat_path) as f:
     lines = f.readlines()
 data_lines = lines[2:]
@@ -46,64 +58,33 @@ df.columns = ["Level"] + stat_cols
 df = df.astype(str).apply(lambda col: col.str.strip())
 df[["Level"] + stat_cols] = df[["Level"] + stat_cols].apply(pd.to_numeric)
 
-# === LEVELING PLAN ===
-fallback_plan = [
-    ("Archer", 2, 9),
-    ("Mage", 11, 2),
-    ("Fighter", 13, 3),
-    ("Warrior", 16, 3),
-    ("Sorcerer", 19, 2),
-]
-
-
-# === LEVELING PLAN (Peak Stats) ===
-#fallback_plan = [
-#    ("Thief", 2, 10),
-#    ("Sorcerer", 12, 1),
-#    ("Warrior", 13, 1),
-#    ("Thief", 14, 3),
-#    ("Sorcerer", 17, 2),
-#    ("Warrior", 19, 1),
-#    ("Sorcerer", 20, 1),
-#    ("Fighter", 21, 1),
-#    ("Warrior", 22, 1),
-#    ("Sorcerer", 23, 1),
-#    ("Warrior", 24, 2),
-#    ("Sorcerer", 26, 2),
-#    ("Warrior", 28, 1),
-#    ("Sorcerer", 29, 1),
-#    ("Warrior", 30, 1),
-#    ("Sorcerer", 31, 2),
-#    ("Warrior", 33, 1),
-#    ("Sorcerer", 34, 2),
-#    ("Warrior", 36, 1),
-#    ("Sorcerer", 37, 1),
-#    ("Warrior", 38, 3),
-#]
-
-# === EXPAND TO LEVEL MAP ===
+# === MAP PLAN TO LEVELS ===
 level_to_voc = {}
 for voc, start, count in fallback_plan:
     for lvl in range(start, start + count):
         level_to_voc[lvl] = voc
 
-# === CALCULATE STATS ===
+# === TRACK STATS & LOGS ===
 total_stats = {stat: base_level_1[stat] for stat in stat_cols}
 included_levels = []
+per_level_log = []
 
 for _, row in df.iterrows():
     lvl = row["Level"]
-    if lvl == 1:
-        continue
-    if lvl not in level_to_voc:
+    if lvl == 1 or lvl not in level_to_voc:
         continue
     voc = level_to_voc[lvl]
     included_levels.append((lvl, voc))
     mults = vocations.get(voc, [1]*6)
+    gains = []
     for i, stat in enumerate(stat_cols):
-        total_stats[stat] += row[stat] * mults[i]
+        base_gain = row[stat]
+        modded_gain = base_gain * mults[i]
+        total_stats[stat] += modded_gain
+        gains.append(modded_gain)
+    per_level_log.append((lvl, voc, gains))
 
-# === FORMAT OUTPUT ===
+# === FORMATTERS ===
 def format_stat_table(stats_dict):
     header = "| Stat        | Total Gain  |"
     divider = "|:-----------:|:-----------:|"
@@ -116,8 +97,30 @@ def format_level_table(levels):
     rows = [f"| Level {lvl:<2}  | {voc:<8} |" for lvl, voc in sorted(levels)]
     return "\n".join([header, table_header] + rows)
 
+def format_detailed_log(log):
+    header = "===== Per-Level Stat Gains (With Vocation Mod) ======="
+    table = ["| Level | Vocation | " + " | ".join(stat_cols) + " |"]
+    divider = "|:-----:|:--------:|" + "|".join([":--------:" for _ in stat_cols]) + "|"
+    table.insert(1, divider)
+    for lvl, voc, gains in sorted(log):
+        stat_cells = " | ".join(f"{g:.1f}".rjust(8) for g in gains)
+        table.append(f"|  {lvl:<3} | {voc:<8} | {stat_cells} |")
+    return "\n".join([header] + table)
+
 # === OUTPUT ===
-print("== Net Stat Gains With Plan ==")
-print(format_stat_table(total_stats))
-print()
-print(format_level_table(included_levels))
+if show_level_log_first:
+    if show_level_used:
+        print(format_level_table(included_levels))
+        print()
+    print(format_detailed_log(per_level_log))
+    print()
+    print("== Net Stat Gains With Plan ==")
+    print(format_stat_table(total_stats))
+else:
+    print("== Net Stat Gains With Plan ==")
+    print(format_stat_table(total_stats))
+    print()
+    if show_level_used:
+        print(format_level_table(included_levels))
+        print()
+    print(format_detailed_log(per_level_log))
