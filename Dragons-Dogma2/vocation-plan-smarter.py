@@ -55,6 +55,32 @@ fallback_plan = [
     ("Sorcerer", 19, 2),
 ]
 
+
+# === LEVELING PLAN (Peak Stats) ===
+#fallback_plan = [
+#    ("Thief", 2, 10),
+#    ("Sorcerer", 12, 1),
+#    ("Warrior", 13, 1),
+#    ("Thief", 14, 3),
+#    ("Sorcerer", 17, 2),
+#    ("Warrior", 19, 1),
+#    ("Sorcerer", 20, 1),
+#    ("Fighter", 21, 1),
+#    ("Warrior", 22, 1),
+#    ("Sorcerer", 23, 1),
+#    ("Warrior", 24, 2),
+#    ("Sorcerer", 26, 2),
+#    ("Warrior", 28, 1),
+#    ("Sorcerer", 29, 1),
+#    ("Warrior", 30, 1),
+#    ("Sorcerer", 31, 2),
+#    ("Warrior", 33, 1),
+#    ("Sorcerer", 34, 2),
+#    ("Warrior", 36, 1),
+#    ("Sorcerer", 37, 1),
+#    ("Warrior", 38, 3),
+#]
+
 # === EXPAND TO LEVEL MAP ===
 level_to_voc = {}
 for voc, start, count in fallback_plan:

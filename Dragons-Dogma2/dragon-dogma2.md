@@ -17,20 +17,31 @@
 
 ![alt text](image.png)
 
-| Vocation           | Start Level   | End Level   | Levels   |
-| :----------------: | :-----------: | :---------: | :------: |
-| Archer             | 0             | 10          | 10       |
-| Mage               | 11            | 12          | 2        |
-| Fighter            | 13            | 15          | 3        |
-| Warrior            | 16            | 18          | 3        |
-| Sorcerer           | 19            | 20          | 2        |
-| Warrior            | 21            | 24          | 5        |
-| Sorcerer           | 25            | 27          | 3        |
-| Warrior            | 28            | 28          | 1        |
-| Sorcerer           | 29            | 31          | 3        |
-| Thief              | 32            | 33          | 2        |
-| Sorcerer           | 34            | 35          | 2        |
-| Thief              | 36            | 37          | 2        |
+### Starting Stats
+
+| Vocation | HP  | Stamina | Str | Def | Magick | Mag Def | KD-P | KD-Res | Weight |
+| :-:      | :-: | :-:     | :-: | :-: | :-:    | :-:     | :-:  | :-:    | :-:    |
+| Base     | 500 | 600     | 40  | 40  | 30     | 30      | 0    | 100    | 25     |
+| Archer   | 500 | 650     | 45  | 40  | 30     | 30      | 20   | 70     | 25     |
+| Fightr   | 650 | 600     | 55  | 50  | 10     | 15      | 20   | 100    | 30     |
+| Mage     | 450 | 600     | 30  | 35  | 60     | 60      | 20   | 50     | 20     |
+| Theif    | 500 | 700     | 50  | 40  | 30     | 30      | 20   | 50     | 25     |
+
+## Stats When Vocation Equipped
+
+| Vocation      | HP  | Stamina | Str | Def | Magick | Mag Def | KD-P | KD-Res | Weight |
+| :-:           | :-: | :-:     | :-: | :-: | :-:    | :-:     | :-:  | :-:    | :-:    |
+| Base          | 500 | 600     | 40  | 40  | 30     | 30      | 0    | 100    | 25     |
+| Archer        | 0   | 50      | 5   | 0   | 0      | 0       | 20   | 30     | 0      |
+| Fighter       | 150 | 0       | 15  | 10  | 20     | 15      | 20   | 0      | 5      |
+| Mage          | 50  | 0       | 10  | 5   | 30     | 30      | 20   | 50     | 5      |
+| Thief         | 0   | 100     | 10  | 0   | 0      | 0       | 20   | 50     | 0      |
+| Mystic Spear  | 50  | 100     | 50  | 15  | 50     | 15      | 20   | 50     | 0      |
+| Magick Archer | 0   | 200     | 40  | 40  | 40     | 30      | 20   | 50     | 0      |
+| Sorcerer      | 200 | 0       | 20  | 15  | 60     | 40      | 20   | 50     | 5      |
+| Trickster     | 100 | 100     | 100 | 50  | 0      | 50      | 20   | 50     | 5      |
+| Warrior       | 350 | 0       | 60  | 20  | 40     | 40      | 20   | 300    | 10     |
+| Warfarer      | 0   | 0       | 0   | 0   | 0      | 0       | 20   | 0      | 0      |
 
 ## Stat Data Lvl 2-40
 
@@ -76,7 +87,51 @@
 | 39    | 23     | 5       | 5        | 3       | 4      | 3          |
 | 40    | 20     | 7       | 1        | 4       | 3      | 0          |
 
-## Dominent Vocation 3
+## Single Peak Stats
+
+|   Level | Peak Stat   | Peak %   | Best Vocation   |
+|--------:|:------------|:---------|:----------------|
+|       2 | Stamina     | 56.2%    | Thief           |
+|       3 | Stamina     | 68.8%    | Thief           |
+|       4 | Stamina     | 81.2%    | Thief           |
+|       5 | Stamina     | 68.8%    | Thief           |
+|       6 | Stamina     | 100.0%   | Thief           |
+|       7 | Stamina     | 81.2%    | Thief           |
+|       8 | Stamina     | 62.5%    | Thief           |
+|       9 | Stamina     | 75.0%    | Thief           |
+|      10 | Stamina     | 81.2%    | Thief           |
+|      11 | Stamina     | 75.0%    | Thief           |
+|      12 | Magick      | 87.5%    | Sorcerer        |
+|      13 | Health      | 90.5%    | Warrior         |
+|      14 | Stamina     | 75.0%    | Thief           |
+|      15 | Stamina     | 93.8%    | Thief           |
+|      16 | Stamina     | 81.2%    | Thief           |
+|      17 | Magick      | 75.0%    | Sorcerer        |
+|      18 | Strength    | 70.0%    | Warrior         |
+|      19 | Magick      | 75.0%    | Sorcerer        |
+|      20 | Magick Def  | 100.0%   | Sorcerer        |
+|      21 | Defense     | 100.0%   | Fighter         |
+|      22 | Health      | 76.2%    | Warrior         |
+|      23 | Magick      | 87.5%    | Sorcerer        |
+|      24 | Strength    | 100.0%   | Warrior         |
+|      25 | Health      | 64.3%    | Warrior         |
+|      26 | Magick Def  | 60.0%    | Sorcerer        |
+|      27 | Magick      | 75.0%    | Sorcerer        |
+|      28 | Health      | 100.0%   | Warrior         |
+|      29 | Magick Def  | 80.0%    | Sorcerer        |
+|      30 | Strength    | 60.0%    | Warrior         |
+|      31 | Magick      | 100.0%   | Sorcerer        |
+|      32 | Magick Def  | 70.0%    | Sorcerer        |
+|      33 | Strength    | 80.0%    | Warrior         |
+|      34 | Magick      | 87.5%    | Sorcerer        |
+|      35 | Magick Def  | 70.0%    | Sorcerer        |
+|      36 | Strength    | 70.0%    | Warrior         |
+|      37 | Magick      | 62.5%    | Sorcerer        |
+|      38 | Health      | 85.7%    | Warrior         |
+|      39 | Health      | 54.8%    | Warrior         |
+|      40 | Health      | 47.6%    | Warrior         |
+
+## Tri Dominent Vocations With Peak Stats
 
 | Lvl | Stat.1 | %.1 | V.1 | Stat.2 | %.2 | V.2 | Stat.3 | %.3 | V.3 | Stat.4 | %.4 | V.4 | Avg |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -120,44 +175,3 @@
 | 39 | Hp | 54.8% | War | Str | 50.0% | War | Mag | 50.0% | Sorc | Sta | 31.2% | Thief | War |
 | 40 | Hp | 47.6% | War | Sta | 43.8% | Thief | Def | 40.0% | Fight | Mag | 37.5% | Sorc | War |
 
-|   Level | Peak Stat   | Peak %   | Best Vocation   |
-|--------:|:------------|:---------|:----------------|
-|       2 | Stamina     | 56.2%    | Thief           |
-|       3 | Stamina     | 68.8%    | Thief           |
-|       4 | Stamina     | 81.2%    | Thief           |
-|       5 | Stamina     | 68.8%    | Thief           |
-|       6 | Stamina     | 100.0%   | Thief           |
-|       7 | Stamina     | 81.2%    | Thief           |
-|       8 | Stamina     | 62.5%    | Thief           |
-|       9 | Stamina     | 75.0%    | Thief           |
-|      10 | Stamina     | 81.2%    | Thief           |
-|      11 | Stamina     | 75.0%    | Thief           |
-|      12 | Magick      | 87.5%    | Sorcerer        |
-|      13 | Health      | 90.5%    | Warrior         |
-|      14 | Stamina     | 75.0%    | Thief           |
-|      15 | Stamina     | 93.8%    | Thief           |
-|      16 | Stamina     | 81.2%    | Thief           |
-|      17 | Magick      | 75.0%    | Sorcerer        |
-|      18 | Strength    | 70.0%    | Warrior         |
-|      19 | Magick      | 75.0%    | Sorcerer        |
-|      20 | Magick Def  | 100.0%   | Sorcerer        |
-|      21 | Defense     | 100.0%   | Fighter         |
-|      22 | Health      | 76.2%    | Warrior         |
-|      23 | Magick      | 87.5%    | Sorcerer        |
-|      24 | Strength    | 100.0%   | Warrior         |
-|      25 | Health      | 64.3%    | Warrior         |
-|      26 | Magick Def  | 60.0%    | Sorcerer        |
-|      27 | Magick      | 75.0%    | Sorcerer        |
-|      28 | Health      | 100.0%   | Warrior         |
-|      29 | Magick Def  | 80.0%    | Sorcerer        |
-|      30 | Strength    | 60.0%    | Warrior         |
-|      31 | Magick      | 100.0%   | Sorcerer        |
-|      32 | Magick Def  | 70.0%    | Sorcerer        |
-|      33 | Strength    | 80.0%    | Warrior         |
-|      34 | Magick      | 87.5%    | Sorcerer        |
-|      35 | Magick Def  | 70.0%    | Sorcerer        |
-|      36 | Strength    | 70.0%    | Warrior         |
-|      37 | Magick      | 62.5%    | Sorcerer        |
-|      38 | Health      | 85.7%    | Warrior         |
-|      39 | Health      | 54.8%    | Warrior         |
-|      40 | Health      | 47.6%    | Warrior         |
