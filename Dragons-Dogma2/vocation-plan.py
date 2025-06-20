@@ -43,7 +43,7 @@ fallback_plan = [
     ("Mage", 11, 2,),    # Levels 7–9 as Sorcerer
     ("Fighter", 13, 3),
     ("Warrior", 16, 3),
-    ("Sorcerer", 19, 2),
+    ("Sorcerer", 19, 1),
 ]
 
 # === EXPAND PLAN TO PER-LEVEL MAP ===
