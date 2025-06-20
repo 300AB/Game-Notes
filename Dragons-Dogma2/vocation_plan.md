@@ -1,4 +1,4 @@
-### Planning / Notes
+# Planning / Notes
 == Net Stat Gains With Plan ==
 | Vocation "" | Start Lvl #, |Number of Levels: # |
 |:-----------:|:------------:|:------------------:|
