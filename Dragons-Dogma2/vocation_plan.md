@@ -1,29 +1,30 @@
 ### Planning / Notes
-
-| Vocation | Start Level | Levels |
-| :-:      | :-:         | :-:    |
-| Archer   | 0           | 10     |
-| Mage     | 11          | 2      |
-| Fighter  | 13          | 3      |
-| Warrior  | 16          | 3      |
-| Sorcerer | 19          | 2      |
-| Warrior  | 21          | 5      |
-| Sorcerer | 25          | 3      |
-| Warrior  | 28          | 1      |
-| Sorcerer | 29          | 3      |
-| Thief    | 32          | 2      |
-| Sorcerer | 34          | 2      |
-| Thief    | 36          | 2      |
+== Net Stat Gains With Plan ==
+| Vocation "" | Start Lvl #, |Number of Levels: # |
+|:-----------:|:------------:|:------------------:|
+    ("Archer", 2, 9),
+    ("Mage", 11, 2),
+    ("Fighter", 13, 3),
+    ("Warrior", 16, 3),
+    ("Sorcerer", 19, 3),
+    ("Warrior", 22, 3),
+    ("Thief", 25, 2),
+    ("Sorcerer", 27, 1),
+    ("Warrior", 28, 1),
+    ("Sorcerer", 29, 3),
+    ("Thief", 32, 2),
+    ("Sorcerer", 34, 2),
+    ("Thief", 36, 2),
 
 == Net Stat Gains With Plan ==
 | Stat        | Total Gain  |
 |:-----------:|:-----------:|
-| Health      |     1161.40 |
-| Stamina     |      910.90 |
-| Strength    |      159.50 |
-| Defense     |      144.80 |
-| Magick      |      150.80 |
-| Magick Def  |      135.30 |
+| Health      |     1310.00 |
+| Stamina     |      957.10 |
+| Strength    |      191.00 |
+| Defense     |      170.00 |
+| Magick      |      170.60 |
+| Magick Def  |      154.80 |
 
 ===== Per-Level Stat Gains (With Vocation Mod) =======
 | Lvl | Vocation | HP | Stamina | Str | Def | Magick | Magick Def | Growth |
@@ -48,6 +49,12 @@
 | 19  | Sorcerer |  17.6 |   9.0 |   2.8 |   2.1 |   9.6 |   0.0 |    41.1 |
 | 20  | Sorcerer |   5.6 |   4.0 |   0.7 |   2.1 |  11.2 |  15.0 |    38.6 |
 | 21  | Sorcerer |  16.8 |   6.0 |   2.8 |   7.0 |   1.6 |   3.0 |    37.2 |
+| 22  | Warrior  |  48.0 |  10.0 |   4.5 |   7.2 |   1.2 |   2.5 |    73.4 |
+| 23  | Warrior  |  24.0 |   5.0 |   1.5 |   8.4 |   4.2 |   1.5 |    44.6 |
+| 24  | Warrior  |  21.0 |   4.0 |  15.0 |   3.6 |   2.4 |   0.5 |    46.5 |
+| 25  | Thief    |  24.3 |  13.0 |   2.4 |   1.0 |   2.4 |   6.0 |    49.1 |
+| 26  | Thief    |  22.5 |   5.2 |   6.0 |   5.0 |   0.0 |   6.0 |    44.7 |
+| 27  | Sorcerer |   8.8 |   9.0 |   2.1 |   0.0 |   9.6 |   3.0 |    32.5 |
 | 28  | Warrior  |  63.0 |   5.0 |   1.5 |   4.8 |   3.6 |   2.0 |    79.9 |
 | 29  | Sorcerer |  20.8 |  10.0 |   3.5 |   4.2 |   3.2 |  12.0 |    53.7 |
 | 30  | Sorcerer |  14.4 |   8.0 |   4.2 |   2.8 |   6.4 |   1.5 |    37.3 |
@@ -58,7 +65,6 @@
 | 35  | Sorcerer |  12.0 |   4.0 |   1.4 |   2.1 |   6.4 |  10.5 |    36.4 |
 | 36  | Thief    |  21.6 |  11.7 |   8.4 |   5.0 |   0.8 |   1.0 |    48.5 |
 | 37  | Thief    |  12.6 |   9.1 |   4.8 |   2.0 |   4.0 |   4.0 |    36.5 |
-
 
 ### Stat Plan Output Area
 
