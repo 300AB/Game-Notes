@@ -1,0 +1,291 @@
+ID,Name,unknown_0,attachEffectId,chanceWeight,
+100,<Delicate Scene> FP Restoration upon Bow Attacks,0,7352400,10
+100,<Delicate Scene> Vigor +1,1,7000000,52
+100,<Delicate Scene> Vigor +2,1,7000001,52
+100,<Delicate Scene> Vigor +3,1,7000002,52
+100,<Delicate Scene> Mind +1,1,7000100,52
+100,<Delicate Scene> Mind +2,1,7000101,52
+100,<Delicate Scene> Mind +3,1,7000102,52
+100,<Delicate Scene> Endurance +1,1,7000200,52
+100,<Delicate Scene> Endurance +2,1,7000201,52
+100,<Delicate Scene> Endurance +3,1,7000202,52
+100,<Delicate Scene> Strength +1,1,7000300,52
+100,<Delicate Scene> Strength +2,1,7000301,52
+100,<Delicate Scene> Strength +3,1,7000302,52
+100,<Delicate Scene> Dexterity +1,1,7000400,52
+100,<Delicate Scene> Dexterity +2,1,7000401,52
+100,<Delicate Scene> Dexterity +3,1,7000402,52
+100,<Delicate Scene> Intelligence +1,1,7000500,52
+100,<Delicate Scene> Intelligence +2,1,7000501,52
+100,<Delicate Scene> Intelligence +3,1,7000502,52
+100,<Delicate Scene> Faith +1,1,7000600,52
+100,<Delicate Scene> Faith +2,1,7000601,52
+100,<Delicate Scene> Faith +3,1,7000602,52
+100,<Delicate Scene> Arcane +1,1,7000700,52
+100,<Delicate Scene> Arcane +2,1,7000701,52
+100,<Delicate Scene> Arcane +3,1,7000702,52
+100,<Delicate Scene> Character Skill Cooldown Reduction +1,1,7000800,47
+100,<Delicate Scene> Character Skill Cooldown Reduction +2,1,7000801,47
+100,<Delicate Scene> Character Skill Cooldown Reduction +3,1,7000802,47
+100,<Delicate Scene> Ultimate Art Gauge +1,1,7000900,47
+100,<Delicate Scene> Ultimate Art Gauge +2,1,7000901,47
+100,<Delicate Scene> Ultimate Art Gauge +3,1,7000902,47
+100,<Delicate Scene> Poise +1,1,7001000,47
+100,<Delicate Scene> Poise +2,1,7001001,47
+100,<Delicate Scene> Poise +3,1,7001002,47
+100,<Delicate Scene> Physical Attack Up,1,7001400,47
+100,<Delicate Scene> Physical Attack Up +1,1,7001401,47
+100,<Delicate Scene> Physical Attack Up +2,1,7001402,47
+100,<Delicate Scene> Magic Attack Power Up,1,7001500,47
+100,<Delicate Scene> Magic Attack Power Up +1,1,7001501,47
+100,<Delicate Scene> Magic Attack Power Up +2,1,7001502,47
+100,<Delicate Scene> Fire Attack Power Up,1,7001600,47
+100,<Delicate Scene> Fire Attack Power Up +1,1,7001601,47
+100,<Delicate Scene> Fire Attack Power Up +2,1,7001602,47
+100,<Delicate Scene> Lightning Attack Power Up,1,7001700,47
+100,<Delicate Scene> Lightning Attack Power Up +1,1,7001701,47
+100,<Delicate Scene> Lightning Attack Power Up +2,1,7001702,47
+100,<Delicate Scene> Holy Attack Power Up,1,7001800,47
+100,<Delicate Scene> Holy Attack Power Up +1,1,7001801,47
+100,<Delicate Scene> Holy Attack Power Up +2,1,7001802,47
+100,<Delicate Scene> Magic Damage Negation Up,1,7002600,47
+100,<Delicate Scene> Fire Damage Negation Up,1,7002700,47
+100,<Delicate Scene> Lightning Damage Negation Up,1,7002800,47
+100,<Delicate Scene> Holy Damage Negation Up,1,7002900,47
+100,<Delicate Scene> Improved Poison Resistance,1,7003000,47
+100,<Delicate Scene> Improved Blood Loss Resistance,1,7003100,47
+100,<Delicate Scene> Improved Sleep Resistance,1,7003200,47
+100,<Delicate Scene> Improved Death Blight Resistance,1,7003300,47
+100,<Delicate Scene> Improved Rot Resistance,1,7003400,47
+100,<Delicate Scene> Improved Frost Resistance,1,7003500,47
+100,<Delicate Scene> Improved Madness Resistance,1,7003600,47
+100,<Delicate Scene> Partial HP Restoration upon Post-Damage Attacks,1,7005600,46
+100,<Delicate Scene> Improved Stance-Breaking when Two-Handing,0,7006000,46
+100,<Delicate Scene> Improved Stance-Breaking when Wielding Two Armaments,0,7006100,46
+100,<Delicate Scene> Flask Also Heals Allies,1,7010200,46
+100,<Delicate Scene> Wylder: Art activation spreads fire in area,1,7010500,67
+100,<Delicate Scene> Duchess: Dagger chain attack reprises event upon nearby enemies,1,7010700,67
+100,<Delicate Scene> Revenant: Expend own HP to fully heal nearby allies when activating Art,0,7010900,67
+100,<Delicate Scene> Guardian: Increased duration for Character Skill,0,7011000,67
+100,<Delicate Scene> Revenant: Trigger ghostflame explosion during Ultimate Art activation,0,7011200,67
+100,<Delicate Scene> Guardian: Creates whirlwind when charging halberd attacks,0,7011600,67
+100,<Delicate Scene> Executor: Roaring restores HP while Art is active,0,7011700,67
+100,<Delicate Scene> Guardian: Slowly restores nearby allies' HP while Art is active,0,7012000,67
+100,<Delicate Scene> Slowly restore HP for self and nearby allies when HP is low,1,7012200,46
+100,<Delicate Scene> Improved Damage Negation at Low HP,0,7012300,46
+100,<Delicate Scene> Wylder: Follow-up attacks possible when using Character Skill (greatsword only),1,7020000,67
+100,<Delicate Scene> Improved Poise Near Totem Stela,0,7030000,67
+100,<Delicate Scene> HP restored when using cured meats- medicinal boluses- etc.,1,7030200,46
+100,<Delicate Scene> Art gauge charged from successful guarding,1,7030600,46
+100,<Delicate Scene> Draw enemy attention while guarding,1,7030700,46
+100,<Delicate Scene> Art gauge fills moderately upon critical hit,1,7030800,46
+100,<Delicate Scene> Attack power increases after using grease items,1,7030900,46
+100,<Delicate Scene> Revenant: Strengthens family and allies when Ultimate Art is activated,0,7031200,67
+100,<Delicate Scene> Raider: Damage taken while using Character Skill improves attack power and stamina,0,7031300,67
+100,<Delicate Scene> Duchess: Become difficult to spot and silence footsteps after landing critical from behind,1,7031800,67
+100,<Delicate Scene> Critical Hits Earn Runes,1,7031900,46
+100,<Delicate Scene> Taking attacks improves attack power,1,7032200,46
+100,<Delicate Scene> Wylder: Art gauge greatly filled when ability is activated,0,7032400,67
+100,<Delicate Scene> Duchess: Defeating enemies while Art is active ups attack power,1,7032700,67
+100,<Delicate Scene> Recluse: Collecting affinity residue activates Terra Magica,1,7032800,67
+100,<Delicate Scene> Recluse: Suffer blood loss and increase attack power upon Art activation,0,7032900,67
+100,<Delicate Scene> Wylder: +1 additional Character Skill use,0,7033200,67
+100,<Delicate Scene> Guardian: Reflect a portion of damage received when ability is activated,0,7033400,67
+100,<Delicate Scene> Recluse: Activating Ultimate Art raises Max HP,0,7034100,67
+100,<Delicate Scene> Executor: Character Skill Boosts Attack but Attacking Drains HP,0,7034400,67
+100,<Delicate Scene> Executor: While Character Skill is active- unlocking use of cursed sword restores HP,0,7034500,67
+100,<Delicate Scene> Ironeye:  Art Charge Activation Adds Poison Effect,0,7034600,67
+100,<Delicate Scene> Ironeye:  Boosts thrusting counterattacks after executing Art,0,7034700,67
+100,<Delicate Scene> Critical Hit Boosts Stamina Recovery Speed,0,7035100,46
+100,<Delicate Scene> HP Recovery From Successful Guarding,0,7036100,46
+100,<Delicate Scene> Improved Initial Standard Attack,1,7040000,46
+100,<Delicate Scene> Improved Guard Counters,1,7040100,46
+100,<Delicate Scene> Improved Critical Hits,1,7040200,46
+100,<Delicate Scene> Improved Throwing Pot Damage,1,7040300,39
+100,<Delicate Scene> Improved Throwing Knife Damage,1,7040400,39
+100,<Delicate Scene> Improved Throwing Stone Damage,1,7040500,39
+100,<Delicate Scene> Improved Roar & Breath Attacks,0,7043000,39
+100,<Delicate Scene> Improved Perfuming Arts,0,7043100,39
+100,<Delicate Scene> Improved Stonedigger Sorcery,0,7043200,39
+100,<Delicate Scene> Improved Carian Sword Sorcery,0,7043300,39
+100,<Delicate Scene> Improved Glintblade Sorcery,0,7043400,39
+100,<Delicate Scene> Improved Invisibility Sorcery,0,7043500,39
+100,<Delicate Scene> Improved Crystalian sorcery,0,7043600,39
+100,<Delicate Scene> Improved Gravity Sorcery,0,7043700,39
+100,<Delicate Scene> Improved Thorn Sorcery,0,7043800,39
+100,<Delicate Scene> Improved Fundamentalist Incantations,0,7044000,39
+100,<Delicate Scene> Improved Dragon Cult Incantations,0,7044100,39
+100,<Delicate Scene> Improved Giants' Flame Incantations,0,7044200,39
+100,<Delicate Scene> Improved Godslayer Incantations,0,7044300,39
+100,<Delicate Scene> Improved Bestial Incantations,0,7044400,39
+100,<Delicate Scene> Improved Frenzied Flame Incantations,0,7044500,39
+100,<Delicate Scene> Improved Dragon Communion Incantations,0,7044600,39
+100,<Delicate Scene> Raised stamina recovery for nearby allies- but not for self,1,7050000,46
+100,<Delicate Scene> Items confer effect to all nearby allies,1,7050100,46
+100,<Delicate Scene> Attack power permanently increased for each evergaol prisoner defeated,1,7060000,46
+100,<Delicate Scene> Max FP permanently increased after releasing Sorcerer's Rise mechanism,1,7060100,46
+100,<Delicate Scene> Attack power up after defeating a Night Invader,0,7060200,46
+100,<Delicate Scene> Treasure marked upon map,1,7070000,46
+100,<Delicate Scene> Improved Attack Power with 3+ Daggers Equipped,1,7080000,10
+100,<Delicate Scene> Improved Attack Power with 3+ Straight Swords Equipped,1,7080100,10
+100,<Delicate Scene> Improved Attack Power with 3+ Greatswords Equipped,1,7080200,10
+100,<Delicate Scene> Improved Attack Power with 3+ Colossal Swords Equipped,1,7080300,10
+100,<Delicate Scene> Improved Attack Power with 3+ Curved Swords Equipped,1,7080400,10
+100,<Delicate Scene> Improved Attack Power with 3+ Curved Greatswords Equipped,1,7080500,10
+100,<Delicate Scene> Improved Attack Power with 3+ Katana Equipped,1,7080600,10
+100,<Delicate Scene> Improved Attack Power with 3+ Twinblades Equipped,1,7080700,10
+100,<Delicate Scene> Improved Attack Power with 3+ Thrusting Swords Equipped,1,7080800,10
+100,<Delicate Scene> Improved Attack Power with 3+ Heavy Thrusting Swords Equipped,1,7080900,10
+100,<Delicate Scene> Improved Attack Power with 3+ Axes Equipped,1,7081000,10
+100,<Delicate Scene> Improved Attack Power with 3+ Greataxes Equipped,1,7081100,10
+100,<Delicate Scene> Improved Attack Power with 3+ Hammers Equipped,1,7081200,10
+100,<Delicate Scene> Improved Attack Power with 3+ Great Hammers Equipped,1,7081300,10
+100,<Delicate Scene> Improved Attack Power with 3+ Flails Equipped,1,7081400,10
+100,<Delicate Scene> Improved Attack Power with 3+ Spears Equipped,1,7081500,10
+100,<Delicate Scene> Improved Attack Power with 3+ Great Spears Equipped,1,7081700,10
+100,<Delicate Scene> Improved Attack Power with 3+ Halberds Equipped,1,7081800,10
+100,<Delicate Scene> Improved Attack Power with 3+ Reapers Equipped,1,7081900,10
+100,<Delicate Scene> Improved Attack Power with 3+ Fists Equipped,1,7082000,10
+100,<Delicate Scene> Improved Attack Power with 3+ Claws Equipped,1,7082100,10
+100,<Delicate Scene> Improved Attack Power with 3+ Whips Equipped,1,7082200,10
+100,<Delicate Scene> Improved Attack Power with 3+ Colossal Weapons Equipped,1,7082300,10
+100,<Delicate Scene> Improved Attack Power with 3+ Bows Equipped,1,7082400,10
+100,<Delicate Scene> Max FP Up with 3+ Staves Equipped,1,7082500,10
+100,<Delicate Scene> Max FP Up with 3+ Sacred Seals Equipped,1,7082600,10
+100,<Delicate Scene> Max HP Up with 3+ Small Shields Equipped,1,7082700,10
+100,<Delicate Scene> Max HP Up with 3+ Medium Shields Equipped,1,7082800,10
+100,<Delicate Scene> Max HP Up with 3+ Greatshields Equipped,1,7082900,10
+100,<Delicate Scene> Defeating enemies fills more of the Art gauge,1,7090000,46
+100,<Delicate Scene> Defeating enemies restores HP for allies but not for self,1,7090100,46
+100,<Delicate Scene> Defeating enemies near Totem Stela restores HP,0,7090300,67
+100,<Delicate Scene> Stamina recovers with each successful attack,1,7100100,46
+100,<Delicate Scene> Increased rune acquisition for self and allies,1,7110000,46
+100,<Delicate Scene> Starting armament deals magic damage,1,7120000,37
+100,<Delicate Scene> Starting armament deals fire damage,1,7120100,37
+100,<Delicate Scene> Starting armament deals lightning damage,1,7120200,37
+100,<Delicate Scene> Starting armament deals holy damage,1,7120300,37
+100,<Delicate Scene> Starting armament inflicts frost,1,7120400,37
+100,<Delicate Scene> Starting armament inflicts poison,1,7120500,37
+100,<Delicate Scene> Starting armament inflicts blood loss,1,7120600,37
+100,<Delicate Scene> Stonesword Key in possession at start of expedition,1,7120900,39
+100,<Delicate Scene> Small Pouch in possession at start of expedition,1,7121000,39
+100,<Delicate Scene> Fire Pots in possession at start of expedition,1,7121100,39
+100,<Delicate Scene> Magic Pots in possession at start of expedition,1,7121200,39
+100,<Delicate Scene> Lightning Pots in possession at start of expedition,1,7121300,39
+100,<Delicate Scene> Holy Water Pots in possession at start of expedition,1,7121400,39
+100,<Delicate Scene> Poisonbone Darts in possession at start of expedition,1,7121500,39
+100,<Delicate Scene> Crystal Darts in possession at start of expedition,1,7121600,39
+100,<Delicate Scene> Throwing Daggers in possession at start of expedition,1,7121700,39
+100,<Delicate Scene> Glintstone Scraps in possession at start of expedition,1,7121800,39
+100,<Delicate Scene> Gravity Stone Chunks in possession at start of expedition,1,7121900,39
+100,<Delicate Scene> Bewitching Branches in possession at start of expedition,1,7122000,39
+100,<Delicate Scene> Wraith Calling Bell in possession at start of expedition,1,7122100,39
+100,<Delicate Scene> Fire Grease in possession at start of expedition,1,7122200,39
+100,<Delicate Scene> Magic Grease in possession at start of expedition,1,7122300,39
+100,<Delicate Scene> Lightning Grease in possession at start of expedition,1,7122400,39
+100,<Delicate Scene> Holy Grease in possession at start of expedition,1,7122500,39
+100,<Delicate Scene> Shield Grease in possession at start of expedition,1,7122600,39
+100,<Delicate Scene> Changes compatible armament's skill to Glintblade Phalanx at start of expedition,1,7122700,37
+100,<Delicate Scene> Changes compatible armament's skill to Gravitas at start of expedition,1,7122800,37
+100,<Delicate Scene> Changes compatible armament's skill to Flaming Strike at start of expedition,1,7122900,37
+100,<Delicate Scene> Changes compatible armament's skill to Eruption at start of expedition,1,7123000,37
+100,<Delicate Scene> Changes compatible armament's skill to Thunderbolt at start of expedition,1,7123100,37
+100,<Delicate Scene> Changes compatible armament's skill to Lightning Slash at start of expedition,1,7123200,37
+100,<Delicate Scene> Changes compatible armament's skill to Sacred Blade at start of expedition,1,7123300,37
+100,<Delicate Scene> Changes compatible armament's skill to Prayerful Strike at start of expedition,1,7123400,37
+100,<Delicate Scene> Changes compatible armament's skill to Poisonous Mist at start of expedition,1,7123500,37
+100,<Delicate Scene> Changes compatible armament's skill to Poison Moth Flight at start of expedition,1,7123600,37
+100,<Delicate Scene> Changes compatible armament's skill to Blood Blade at start of expedition,1,7123700,37
+100,<Delicate Scene> Changes compatible armament's skill to Seppuku at start of expedition,1,7123800,37
+100,<Delicate Scene> Changes compatible armament's skill to Chilling Mist at start of expedition,1,7123900,37
+100,<Delicate Scene> Changes compatible armament's skill to Hoarfrost Stomp at start of expedition,1,7124000,37
+100,<Delicate Scene> Changes compatible armament's skill to White Shadow's Lure at start of expedition,1,7124100,37
+100,<Delicate Scene> Changes compatible armament's skill to Endure at start of expedition,1,7124300,37
+100,<Delicate Scene> Changes compatible armament's skill to Quickstep at start of expedition,1,7124400,37
+100,<Delicate Scene> Changes compatible armament's skill to Storm Stomp at start of expedition,1,7124500,37
+100,<Delicate Scene> Changes compatible armament's skill to Determination at start of expedition,1,7124600,37
+100,<Delicate Scene> Changes compatible armament's skill to Rain of Arrows at start of expedition,1,7124700,37
+100,<Delicate Scene> Starlight Shards in possession at start of expedition,0,7126000,39
+100,<Delicate Scene> Guard counter is given a boost based on current HP,1,7150000,46
+100,<Delicate Scene> HP Restoration upon Thrusting Counterattack,1,7160000,46
+100,<Delicate Scene> Revenant: Power up while fighting alongside family,0,7220000,67
+100,<Delicate Scene> Rune discount for shop purchases while on expedition,0,7230000,46
+100,<Delicate Scene> Improved Poise & Damage Negation When Knocked Back by Damage,0,7240000,46
+100,<Delicate Scene> Attack power up when facing poison-afflicted enemy,0,7260000,46
+100,<Delicate Scene> Attack power up when facing scarlet rot-afflicted enemy,0,7260300,46
+100,<Delicate Scene> Attack power up when facing frostbite-afflicted enemy,0,7260400,46
+100,<Delicate Scene> Ironeye:  +1 additional Character Skill use,0,7270100,67
+100,<Delicate Scene> Ironeye:  Extends duration of weak point,0,7280000,67
+100,<Delicate Scene> Duchess: Improved Character Skill Attack Power,0,7290000,67
+100,<Delicate Scene> Raider: Duration of Ultimate Art extended,0,7310000,67
+100,<Delicate Scene> Improved Dagger Attack Power,0,7330000,10
+100,<Delicate Scene> Improved Straight Sword Attack Power,0,7330100,10
+100,<Delicate Scene> Improved Greatsword Attack Power,0,7330200,10
+100,<Delicate Scene> Improved Colossal Sword Attack Power,0,7330300,10
+100,<Delicate Scene> Improved Curved Sword Attack Power,0,7330400,10
+100,<Delicate Scene> Improved Curved Greatsword Attack Power,0,7330500,10
+100,<Delicate Scene> Improved Katana Attack Power,0,7330600,10
+100,<Delicate Scene> Improved Twinblade Attack Power,0,7330700,10
+100,<Delicate Scene> Improved Thrusting Sword Attack Power,0,7330800,10
+100,<Delicate Scene> Improved Heavy Thrusting Sword Attack Power,0,7330900,10
+100,<Delicate Scene> Improved Axe Attack Power,0,7331000,10
+100,<Delicate Scene> Improved Greataxe Attack Power,0,7331100,10
+100,<Delicate Scene> Improved Hammer Attack Power,0,7331200,10
+100,<Delicate Scene> Improved Great Hammer Attack Power,0,7331300,10
+100,<Delicate Scene> Improved Flail Attack Power,0,7331400,10
+100,<Delicate Scene> Improved Spear Attack Power,0,7331500,10
+100,<Delicate Scene> Improved Great Spear Attack Power,0,7331700,10
+100,<Delicate Scene> Improved Halberd Attack Power,0,7331800,10
+100,<Delicate Scene> Improved Reaper Attack Power,0,7331900,10
+100,<Delicate Scene> Improved Fist Attack Power,0,7332000,10
+100,<Delicate Scene> Improved Claw Attack Power,0,7332100,10
+100,<Delicate Scene> Improved Whip Attack Power,0,7332200,10
+100,<Delicate Scene> Improved Colossal Weapon Attack Power,0,7332300,10
+100,<Delicate Scene> Improved Bow Attack Power,0,7332400,10
+100,<Delicate Scene> HP Restoration upon Dagger Attacks,0,7340000,10
+100,<Delicate Scene> HP Restoration upon Straight Sword Attacks,0,7340100,10
+100,<Delicate Scene> HP Restoration upon Greatsword Attacks,0,7340200,10
+100,<Delicate Scene> HP Restoration upon Colossal Sword Attacks,0,7340300,10
+100,<Delicate Scene> HP Restoration upon Curved Sword Attacks,0,7340400,10
+100,<Delicate Scene> HP Restoration upon Curved Greatsword Attacks,0,7340500,10
+100,<Delicate Scene> HP Restoration upon Katana Attacks,0,7340600,10
+100,<Delicate Scene> HP Restoration upon Twinblade Attacks,0,7340700,10
+100,<Delicate Scene> HP Restoration upon Thrusting Sword Attacks,0,7340800,10
+100,<Delicate Scene> HP Restoration upon Heavy Thrusting Sword Attacks,0,7340900,10
+100,<Delicate Scene> HP Restoration upon Axe Attacks,0,7341000,10
+100,<Delicate Scene> HP Restoration upon Greataxe Attacks,0,7341100,10
+100,<Delicate Scene> HP Restoration upon Hammer Attacks,0,7341200,10
+100,<Delicate Scene> HP Restoration upon Great Hammer Attacks,0,7341300,10
+100,<Delicate Scene> HP Restoration upon Flail Attacks,0,7341400,10
+100,<Delicate Scene> HP Restoration upon Spear Attacks,0,7341500,10
+100,<Delicate Scene> HP Restoration upon Great Spear Attacks,0,7341700,10
+100,<Delicate Scene> HP Restoration upon Halberd Attacks,0,7341800,10
+100,<Delicate Scene> HP Restoration upon Reaper Attacks,0,7341900,10
+100,<Delicate Scene> HP Restoration upon Fist Attacks,0,7342000,10
+100,<Delicate Scene> HP Restoration upon Claw Attacks,0,7342100,10
+100,<Delicate Scene> HP Restoration upon Whip Attacks,0,7342200,10
+100,<Delicate Scene> HP Restoration upon Colossal Weapon Attacks,0,7342300,10
+100,<Delicate Scene> HP Restoration upon Bow Attacks,0,7342400,10
+100,<Delicate Scene> FP Restoration upon Dagger Attacks,0,7350000,10
+100,<Delicate Scene> FP Restoration upon Straight Sword Attacks,0,7350100,10
+100,<Delicate Scene> FP Restoration upon Greatsword Attacks,0,7350200,10
+100,<Delicate Scene> FP Restoration upon Colossal Sword Attacks,0,7350300,10
+100,<Delicate Scene> FP Restoration upon Curved Sword Attacks,0,7350400,10
+100,<Delicate Scene> FP Restoration upon Curved Greatsword Attacks,0,7350500,10
+100,<Delicate Scene> FP Restoration upon Katana Attacks,0,7350600,10
+100,<Delicate Scene> FP Restoration upon Twinblade Attacks,0,7350700,10
+100,<Delicate Scene> FP Restoration upon Thrusting Sword Attacks,0,7350800,10
+100,<Delicate Scene> FP Restoration upon Heavy Thrusting Sword Attacks,0,7350900,10
+100,<Delicate Scene> FP Restoration upon Axe Attacks,0,7351000,10
+100,<Delicate Scene> FP Restoration upon Greataxe Attacks,0,7351100,10
+100,<Delicate Scene> FP Restoration upon Hammer Attacks,0,7351200,10
+100,<Delicate Scene> FP Restoration upon Great Hammer Attacks,0,7351300,10
+100,<Delicate Scene> FP Restoration upon Flail Attacks,0,7351400,10
+100,<Delicate Scene> FP Restoration upon Spear Attacks,0,7351500,10
+100,<Delicate Scene> FP Restoration upon Great Spear Attacks,0,7351700,10
+100,<Delicate Scene> FP Restoration upon Halberd Attacks,0,7351800,10
+100,<Delicate Scene> FP Restoration upon Reaper Attacks,0,7351900,10
+100,<Delicate Scene> FP Restoration upon Fist Attacks,0,7352000,10
+100,<Delicate Scene> FP Restoration upon Claw Attacks,0,7352100,10
+100,<Delicate Scene> FP Restoration upon Whip Attacks,0,7352200,10
+100,<Delicate Scene> FP Restoration upon Colossal Weapon Attacks,0,7352300,10
