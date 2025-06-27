@@ -1,3 +1,44 @@
+## Shapes Obsession
+
+| Img | ShapeId | Size | Color  |
+|:---:|:-------:|:----:|:------:|
+| nul | 100     | Del  | Red    |
+| nul | 101     | Pol  | Red    |
+| nul | 102     | Gran | Red    |
+| nul | 103     | Del  | Red    |
+| nul | 104     | Pol  | Red    |
+| nul | 105     | Gran | Red    |
+| nul | 106     | Del  | Red    |
+| nul | 107     | Pol  | Red    |
+| nul | 108     | Gran | Red    |
+| nul | 127     | Del  | Green  |
+| nul | 131     | Pol  | Green  |
+| nul | 129     | Gran | Green  |
+| nul | 130     | Del  | Green  |
+| nul | 128     | Pol  | Green  |
+| nul | 132     | Gran | Green  |
+| nul | 133     | Del  | Green  |
+| nul | 134     | Pol  | Green  |
+| nul | 135     | Gran | Green  |
+| nul | 109     | Del  | Blue   |
+| nul | 110     | Pol  | Blue   |
+| nul | 111     | Gran | Blue   |
+| nul | 112     | Del  | Blue   |
+| nul | 113     | Pol  | Blue   |
+| nul | 114     | Gran | Blue   |
+| nul | 115     | Del  | Blue   |
+| nul | 116     | Pol  | Blue   |
+| nul | 117     | Gran | Blue   |
+| nul | 118     | Del  | Yellow |
+| nul | 119     | Pol  | Yellow |
+| nul | 120     | Gran | Yellow |
+| nul | 121     | Del  | Yellow |
+| nul | 122     | Pol  | Yellow |
+| nul | 123     | Gran | Yellow |
+| nul | 124     | Del  | Yellow |
+| nul | 125     | Pol  | Yellow |
+| nul | 126     | Gran | Yellow |
+
 12 = t 1 count 
 12 = t 2 count
 12 = t 3 count
