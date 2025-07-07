@@ -64,3 +64,19 @@
 4 ele atk up  
 3 ailments  
 3 atk up if infliction  
+
+---
+
+### Chalices
+
+| Wylder     | Guardian     | Ironeye     | Duchess     | Raider     | Revenant     | Recluse     | Executor     |
+| :--------: | :----------: | :---------: | :---------: | :--------: | :----------: | :---------: | :----------: |
+| RYW        | BYW          | RGW         | BYW         | RRW        | BGW          | YGW         | BYW          |
+| BBY        | RGG          | BYY         | RRG         | BBG        | RYY          | RRY         | RRB          |
+| BRR        | YYR          | GGY         | BBR         | GGR        | YBB          | GBB         | YYR          |
+| RRB        | RYY          | YGG         | RBB         | RGG        | BBY          | BBG         | RYY          |
+| YGG        | BBG          | RBY         | YYG         | RBY        | RRG          | RBY         | RBG          |
+| ` `        | ` `          | ` `         | ` `         | ` `        | ` `          | ` `         | ` `          |
+| YYY        | YYY          | YYY         | YYY         | YYY        | YYY          | YYY         | YYY          |
+| GGG        | GGG          | GGG         | GGG         | GGG        | GGG          | GGG         | GGG          |
+| BBB        | BBB          | BBB         | BBB         | BBB        | BBB          | BBB         | BBB          |
