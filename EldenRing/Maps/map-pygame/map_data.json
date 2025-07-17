@@ -1,0 +1,429 @@
+{
+  "nodes": {
+    "1A": {"name": "Chapel of Anticipation", "pos": [50, 300], "type": "grace"},
+    "1B": {"name": "Bridge Spawn", "pos": [120, 320], "type": "location_note"},
+    "2A": {"name": "First Grace", "pos": [180, 340], "type": "grace"},
+    "2B": {"name": "Fractured Peninsula", "pos": [240, 380], "type": "location_note"},
+    "2C": {"name": "Cave of Loot X", "pos": [300, 420], "type": "loot_pickup"},
+    "3A": {"name": "West Limgrave", "pos": [360, 380], "type": "grace"},
+    "3B": {"name": "Ruined Fort", "pos": [440, 320], "type": "location_note"},
+    "3C": {"name": "Bandit Camp", "pos": [440, 400], "type": "location_note"},
+    "3D": {"name": "Knight Drop", "pos": [500, 360], "type": "foe_drop"},
+    "4B": {"name": "Caelid Edge Loot", "pos": [580, 420], "type": "loot_pickup"},
+    "4C": {"name": "Smoldering Wall", "pos": [550, 260], "type": "grace"},
+    "B1": {"name": "Godrick the Grafted", "pos": [380, 300], "type": "boss"},
+    "B2": {"name": "Margit the Fell Omen", "pos": [390, 350], "type": "boss"},
+    "B3": {"name": "Rennala, Queen of the Full Moon", "pos": [600, 450], "type": "boss"},
+    "B4": {"name": "Rykard, Lord of Blasphemy", "pos": [560, 300], "type": "boss"},
+    "B5": {"name": "Starscourge Radahn", "pos": [580, 380], "type": "boss"},
+    "MB1": {"name": "Red Wolf of Radagon", "pos": [570, 410], "type": "foe_drop"},
+    "DR1": {"name": "Deathtouched Catacombs", "pos": [100, 200], "type": "deathroot"},
+    "DR2": {"name": "Black Knife Catacombs", "pos": [220, 310], "type": "deathroot"},
+    "DR3": {"name": "Wyndham Ruins", "pos": [310, 430], "type": "deathroot"},
+    "DR4": {"name": "Gelmir Hero's Grave", "pos": [420, 510], "type": "deathroot"},
+    "DR5": {"name": "Giants' Mountaintop Catacombs", "pos": [500, 580], "type": "deathroot"},
+    "DR7": {"name": "Hidden Path to the Haligtree", "pos": [700, 480], "type": "deathroot"},
+    "DG1": {"name": "Stormveil Castle Dungeon", "pos": [480, 350], "type": "dungeon"},
+    "DG2": {"name": "Volcano Manor Dungeon", "pos": [560, 420], "type": "dungeon"},
+    "EG1": {"name": "Evergoal", "pos": [600, 380], "type": "evergoal"}
+  },
+  "paths": [
+    ["1A", "1B"],
+    ["1B", "2A"],
+    ["2A", "2B"],
+    ["2B", "2C"],
+    ["2B", "3A"],
+    ["3A", "3B"],
+    ["3A", "3C"],
+    ["3C", "3D"],
+    ["3D", "4B"],
+    ["4B", "4C"],
+    ["B1", "3A"],
+    ["B2", "3A"],
+    ["B3", "EG1"],
+    ["B4", "4C"],
+    ["B5", "4C"],
+    ["MB1", "B3"],
+    ["MB1", "3A"],
+    ["DR1", "1A"],
+    ["DR2", "2A"],
+    ["DR3", "2C"],
+    ["DR4", "4B"],
+    ["DR5", "4B"],
+    ["DR7", "4C"],
+    ["DG1", "3D"],
+    ["DG2", "4C"],
+    ["EG1", "3A"]
+  ],
+  "bosses": {
+    "Ulcerated_Tree_Spirit_Limgrave_Fringefolk": {
+      "name": "Ulcerated Tree Spirit",
+      "zone": "Limgrave",
+      "pos": [150, 365],
+      "type": "event_boss",
+      "loot": ["Golden Seed", "Banished Knight Oleg Ashes"],
+      "location": "Fringefolk Hero's Grave"
+    },
+    "Soldier_of_Godrick": {
+      "name": "Soldier of Godrick",
+      "zone": "Limgrave",
+      "pos": [130, 375],
+      "type": "mini_boss",
+      "loot": ["400 Runes"],
+      "location": "Cave of Knowledge, Stranded Graveyard"
+    },
+    "Grafted_Scion": {
+      "name": "Grafted Scion",
+      "zone": "Limgrave",
+      "pos": [200, 340],
+      "type": "main_boss",
+      "loot": ["Ornamental Straight Sword", "Golden Beast Crest Shield"],
+      "location": "Prologue area"
+    },
+    "Tree_Sentinel": {
+      "name": "Tree Sentinel",
+      "zone": "Limgrave",
+      "pos": [185, 315],
+      "type": "mini_boss",
+      "loot": ["Golden Halberd"],
+      "location": "Patrol between Church of Elleh and The First Step"
+    },
+    "Demi_Human_Chief_Duo": {
+      "name": "2x Demi-Human Chief",
+      "zone": "Limgrave",
+      "pos": [140, 320],
+      "type": "mini_boss",
+      "loot": ["Tailoring Tools", "Sewing Needle"],
+      "location": "End of Coastal Cave dungeon"
+    },
+    "Erdtree_Burial_Watchdog_Stormfoot": {
+      "name": "Erdtree Burial Watchdog",
+      "zone": "Limgrave",
+      "pos": [155, 330],
+      "type": "mini_boss",
+      "loot": ["Noble Sorcerer Ashes"],
+      "location": "Past locked door, Stormfoot Catacombs"
+    },
+    "Beastman_of_Farum_Azula": {
+      "name": "Beastman of Farum Azula",
+      "zone": "Limgrave",
+      "pos": [165, 345],
+      "type": "mini_boss",
+      "loot": ["Flamedrake Talisman"],
+      "location": "Groveside Cave"
+    },
+    "Crucible_Knight": {
+      "name": "Crucible Knight",
+      "zone": "Limgrave",
+      "pos": [175, 310],
+      "type": "mini_boss",
+      "loot": ["Aspects of the Crucible: Tail"],
+      "location": "Stormhill Evergaol"
+    },
+    "Stonedigger_Troll": {
+      "name": "Stonedigger Troll",
+      "zone": "Limgrave",
+      "pos": [160, 325],
+      "type": "mini_boss",
+      "loot": ["Roar Medallion"],
+      "location": "Limgrave Tunnels"
+    },
+    "Flying_Dragon_Agheel": {
+      "name": "Flying Dragon Agheel",
+      "zone": "Limgrave",
+      "pos": [210, 300],
+      "type": "mini_boss",
+      "loot": ["Dragon Heart"],
+      "location": "Dragon-Burnt Ruins"
+    },
+    "Bloodhound_Knight_Darriwil": {
+      "name": "Bloodhound Knight Darriwil",
+      "zone": "Limgrave",
+      "pos": [170, 315],
+      "type": "mini_boss",
+      "loot": ["Bloodhound's Fang"],
+      "location": "Forlorn Hound Evergaol"
+    },
+    "Night_Cavalry_Limgrave": {
+      "name": "Night's Cavalry (Limgrave)",
+      "zone": "Limgrave",
+      "pos": [180, 300],
+      "type": "mini_boss",
+      "loot": ["Ash of War: Repeating Thrust"],
+      "location": "Patrols bridge Agheel Lake North to Waypoint Ruins (night only)"
+    },
+    "Mad_Pumpkin_Head": {
+      "name": "Mad Pumpkin Head",
+      "zone": "Limgrave",
+      "pos": [190, 290],
+      "type": "mini_boss",
+      "loot": ["1,000 Runes"],
+      "location": "Underneath Waypoint Ruins"
+    },
+    "Grave_Warden_Duelist": {
+      "name": "Grave Warden Duelist",
+      "zone": "Limgrave",
+      "pos": [150, 330],
+      "type": "mini_boss",
+      "loot": ["Banished Knight Engvall"],
+      "location": "Murkwater Catacombs"
+    },
+    "Patches": {
+      "name": "Patches",
+      "zone": "Limgrave",
+      "pos": [145, 360],
+      "type": "event_boss",
+      "loot": ["Grovel For Mercy", "Leather Set", "Spear +7", "Patches' Bell Bearings"],
+      "location": "Murkwater Cave",
+      "note": "Quest NPC or kill for loot"
+    },
+    "Guardian_Golem": {
+      "name": "Guardian Golem",
+      "zone": "Limgrave",
+      "pos": [165, 345],
+      "type": "mini_boss",
+      "loot": ["Blue Dancer Charm"],
+      "location": "Highroad Cave"
+    },
+    "Black_Knife_Assassin_Limgrave": {
+      "name": "Black Knife Assassin",
+      "zone": "Limgrave",
+      "pos": [155, 355],
+      "type": "mini_boss",
+      "loot": ["Assassin's Crimson Dagger"],
+      "location": "Deathtouched Catacombs"
+    },
+    "Night_Cavalry_Weeping_Peninsula": {
+      "name": "Night's Cavalry (Weeping Peninsula)",
+      "zone": "Limgrave",
+      "pos": [185, 290],
+      "type": "mini_boss",
+      "loot": ["Nightrider Flail", "Ash of War: Barricade Shield", "3,400 Runes"],
+      "location": "Weeping Peninsula (night only)"
+    },
+    "Leonine_Misbegotten": {
+      "name": "Leonine Misbegotten",
+      "zone": "Limgrave",
+      "pos": [195, 280],
+      "type": "mini_boss",
+      "loot": ["Grafted Blade Greatsword"],
+      "location": "Castle Morne Graveyard"
+    },
+    "Tibia_Mariner_Limgrave": {
+      "name": "Tibia Mariner",
+      "zone": "Limgrave",
+      "pos": [160, 365],
+      "type": "mini_boss",
+      "loot": ["Skeletal Militiaman Ashes", "Deathroot"],
+      "location": "Summonwater Village"
+    },
+    "Glintstone_Dragon_Smarag": {
+      "name": "Glintstone Dragon Smarag",
+      "zone": "Liurnia",
+      "pos": [620, 450],
+      "type": "mini_boss",
+      "loot": ["Dragon Heart"],
+      "location": "South-west of Crystalline Woods Site of Grace"
+    },
+    "Cemetery_Shade": {
+      "name": "Cemetery Shade",
+      "zone": "Limgrave",
+      "pos": [155, 350],
+      "type": "mini_boss",
+      "loot": ["Lhutel The Headless"],
+      "location": "Tombsward Catacombs"
+    },
+    "Ancient_Hero_of_Zamor_Limgrave": {
+      "name": "Ancient Hero of Zamor",
+      "zone": "Limgrave",
+      "pos": [170, 360],
+      "type": "mini_boss",
+      "loot": ["Radagon's Scarseal"],
+      "location": "Weeping Evergaol"
+    },
+    "Scaly_Misbegotten": {
+      "name": "Scaly Misbegotten",
+      "zone": "Limgrave",
+      "pos": [180, 355],
+      "type": "mini_boss",
+      "loot": ["Rusted Anchor"],
+      "location": "Morne Tunnel"
+    },
+    "Deathbird_Limgrave": {
+      "name": "Deathbird",
+      "zone": "Limgrave",
+      "pos": [185, 285],
+      "type": "mini_boss",
+      "loot": ["Blue-Feathered Branchsword"],
+      "location": "Night spawn on ruins, Weeping Peninsula"
+    },
+    "Runebear": {
+      "name": "Runebear",
+      "zone": "Limgrave",
+      "pos": [160, 335],
+      "type": "mini_boss",
+      "loot": ["Spelldrake Talisman"],
+      "location": "Earthbore Cave"
+    },
+    "Deathbird_Liurnia": {
+      "name": "Deathbird",
+      "zone": "Liurnia",
+      "pos": [630, 470],
+      "type": "mini_boss",
+      "loot": ["Red Feathered Branch Sword"],
+      "location": "Night spawn only"
+    },
+    "Red_Wolf_of_Radagon": {
+      "name": "Red Wolf of Radagon",
+      "zone": "Liurnia",
+      "pos": [610, 460],
+      "type": "mini_boss",
+      "loot": ["Memory Stone"],
+      "location": "Debate Hall"
+    },
+    "Miranda_the_Blighted_Bloom": {
+      "name": "Miranda the Blighted Bloom",
+      "zone": "Limgrave",
+      "pos": [155, 355],
+      "type": "mini_boss",
+      "loot": ["Viridian Amber Medallion"],
+      "location": "Tombsward Cave"
+    },
+    "Decaying_Ekzykes": {
+      "name": "Decaying Ekzykes",
+      "zone": "Caelid",
+      "pos": [570, 430],
+      "type": "mini_boss",
+      "loot": ["Dragon Heart"],
+      "location": "Guarding way to Cathedral of Dragon Communion"
+    },
+    "Dragonkin_Soldier": {
+      "name": "Dragonkin Soldier",
+      "zone": "Caelid",
+      "pos": [580, 445],
+      "type": "mini_boss",
+      "loot": ["Dragoncrest Greatshield", "Dragon Heart"],
+      "location": "Found near Smoldering Wall"
+    },
+    "Radagon's_Spawn": {
+      "name": "Radagon's Spawn",
+      "zone": "Caelid",
+      "pos": [585, 440],
+      "type": "mini_boss",
+      "loot": ["Dragon Heart"],
+      "location": "Near Smoldering Wall"
+    },
+    "Night_Cavalry_Caelid": {
+      "name": "Night's Cavalry (Caelid)",
+      "zone": "Caelid",
+      "pos": [580, 435],
+      "type": "mini_boss",
+      "loot": ["Ash of War: Poison Moth Flight"],
+      "location": "Patrols near Caelid Grace"
+    },
+    "Leonine_Misbegotten_Altus": {
+      "name": "Leonine Misbegotten",
+      "zone": "Altus Plateau",
+      "pos": [600, 490],
+      "type": "mini_boss",
+      "loot": ["Giant-Crusher Greatsword"],
+      "location": "Found in underground tunnels"
+    },
+    "Night_Cavalry_Liurnia": {
+      "name": "Night's Cavalry (Liurnia)",
+      "zone": "Liurnia",
+      "pos": [600, 465],
+      "type": "mini_boss",
+      "loot": ["Ash of War: Ice Spear"],
+      "location": "Patrols around Liurnia Grace"
+    },
+    "Bell_Bearing_Hunter": {
+      "name": "Bell Bearing Hunter",
+      "zone": "Caelid",
+      "pos": [570, 440],
+      "type": "mini_boss",
+      "loot": ["Bell Bearing Hunter's Ashes"],
+      "location": "Near Caelid Grace"
+    },
+    "Night_Cavalry_Altus": {
+      "name": "Night's Cavalry (Altus Plateau)",
+      "zone": "Altus Plateau",
+      "pos": [620, 500],
+      "type": "mini_boss",
+      "loot": ["Ash of War: Barricade Shield"],
+      "location": "Patrols near Altus Grace"
+    },
+    "Godrick_the_Grafted": {
+      "name": "Godrick the Grafted",
+      "zone": "Limgrave",
+      "pos": [190, 345],
+      "type": "main_boss",
+      "loot": ["Godrick's Great Rune", "Remembrance of the Grafted", "20,000 Runes"],
+      "location": "Stormhill"
+    },
+    "Margit_the_Fell_Omen": {
+      "name": "Margit, the Fell Omen",
+      "zone": "Limgrave",
+      "pos": [195, 350],
+      "type": "main_boss",
+      "loot": ["Talisman Pouch"],
+      "location": "Entrance to Stormhill"
+    },
+    "Rennala_Queen_of_the_Full_Moon": {
+      "name": "Rennala, Queen of the Full Moon",
+      "zone": "Liurnia",
+      "pos": [605, 460],
+      "type": "main_boss",
+      "loot": ["Remembrance of the Full Moon Queen", "Great Rune of the Unborn"],
+      "location": "Ranni's Rise, Academy of Raya Lucaria"
+    },
+    "Starscourge_Radahn": {
+      "name": "Starscourge Radahn",
+      "zone": "Caelid",
+      "pos": [570, 455],
+      "type": "main_boss",
+      "loot": ["70,000 Runes", "Remembrance of the Starscourge", "Radahn's Great Rune"],
+      "location": "Redmane Castle"
+    },
+    "Morgott_the_Omen_King": {
+      "name": "Morgott, the Omen King",
+      "zone": "Altus Plateau",
+      "pos": [635, 510],
+      "type": "main_boss",
+      "loot": ["Remembrance of the Omen King", "Morgott's Great Rune"],
+      "location": "Leyndell Royal Capital"
+    },
+    "Fire_Giant": {
+      "name": "Fire Giant",
+      "zone": "Mountaintops of the Giants",
+      "pos": [710, 590],
+      "type": "main_boss",
+      "loot": ["180,000 Runes", "Remembrance of the Fire Giant"],
+      "location": "Forge of the Giants"
+    },
+    "Rykard_Lord_of_Blasphemy": {
+      "name": "Rykard, Lord of Blasphemy",
+      "zone": "Altus Plateau",
+      "pos": [610, 495],
+      "type": "main_boss",
+      "loot": ["Eye Surcoat", "Remembrance of the Blasphemous", "Rykard's Great Rune"],
+      "location": "Volcano Manor"
+    },
+    "Malenia_Blade_of_Miquella": {
+      "name": "Malenia, Blade of Miquella",
+      "zone": "Mountaintops of the Giants",
+      "pos": [720, 610],
+      "type": "main_boss",
+      "loot": ["Remembrance of the Rot Goddess", "Malenia's Great Rune"],
+      "location": "Elphael, Brace of the Haligtree"
+    },
+    "Commander_Oligros": {
+      "name": "Commander Oligros",
+      "zone": "Liurnia",
+      "pos": [620, 480],
+      "type": "mini_boss",
+      "loot": ["Great Rune Fragment"],
+      "location": "Near Ranni's Rise"
+    }
+  }
+}
