@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -11,29 +11,30 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
-pids
+pids/
 *.pid
 *.seed
 *.pid.lock
 
 # Instrumented libs
-lib-cov
+lib-cov/
 
 # Coverage
-coverage
+coverage/
 *.lcov
-.nyc_output
+.nyc_output/
 
 # Grunt
-.grunt
+.grunt/
 
-# Bowerower_components
+# Bower
+bower_components/
 
 # node-waf
 .lock-wscript
 
 # Binary addons
-build/Release
+build/Release/
 
 # Dependency directories
 node_modules/
@@ -46,9 +47,9 @@ web_modules/
 *.tsbuildinfo
 
 # npm/yarn caches
-.npm
-.yarn/cache
-.yarn/unplugged
+.npm/
+.yarn/cache/
+.yarn/unplugged/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
@@ -78,32 +79,32 @@ web_modules/
 .env.local
 
 # Parcel
-.cache
-.parcel-cache
+.cache/
+.parcel-cache/
 
 # Next.js
-.next
-out
+.next/
+out/
 
 # Nuxt.js
-.nuxt
-dist
+.nuxt/
+dist/
 
 # Gatsby
 .cache/
-# public
+# public/
 
 # VuePress
-.vuepress/dist
-.temp
-.cache
+.vuepress/dist/
+.temp/
+.cache/
 
 # VitePress
-**/.vitepress/dist
-**/.vitepress/cache
+**/.vitepress/dist/
+**/.vitepress/cache/
 
 # Docusaurus
-.docusaurus
+.docusaurus/
 
 # Serverless
 .serverless/
@@ -186,7 +187,7 @@ htmlcov/
 .nox/
 .coverage
 .coverage.*
-.cache
+.cache/
 nosetests.xml
 coverage.xml
 *.cover
@@ -207,10 +208,10 @@ db.sqlite3-journal
 
 # Flask
 instance/
-.webassets-cache
+.webassets-cache/
 
 # Scrapy
-.scrapy
+.scrapy/
 
 # Sphinx
 docs/_build/
@@ -220,7 +221,7 @@ docs/_build/
 target/
 
 # Jupyter
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -230,19 +231,15 @@ ipython_config.py
 .python-version
 
 # Pipenv
-#Pipfile.lock
-
-# UV
-#uv.lock
+Pipfile.lock
 
 # Poetry
-#poetry.lock
+poetry.lock
 
 # pdm
 .pdm.toml
 .pdm-python
 .pdm-build/
-#pdm.lock
 
 # PEP 582
 __pypackages__/
@@ -256,7 +253,7 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.venv/
 env/
 ENV/
 env.bak/
@@ -267,10 +264,10 @@ venv.bak/
 .spyproject
 
 # Rope
-.ropeproject
+.ropeproject/
 
 # mkdocs
-/site
+/site/
 
 # mypy
 .mypy_cache/
@@ -287,17 +284,22 @@ dmypy.json
 cython_debug/
 
 # PyCharm
-#.idea/
+.idea/
 
 # Abstra
 .abstra/
 
 # Cursor
 .cursorignore
-.cursorindexingignore
+.cursorindexingignore/
 
 # Ruff
 .ruff_cache/
 
 # PyPI
 .pypirc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
