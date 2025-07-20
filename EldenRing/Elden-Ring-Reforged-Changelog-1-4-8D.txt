@@ -1,6 +1,119 @@
+Version 1.4.8D
+
+Fixed Rellana's Twinblades having bugged damage interactions with enkindled skills.
+
+Fixed the Starscourge Greatsword 2H state having incorrect values due to accidental changes.
+
+Fixed Warcry R2s not counting as Heavy Attacks for certain attack type checks.
+
+Version 1.4.8C
+
+Increased whip critical damage by 20% and the Shield of Night critical damage by 10%.
+
+Barbaric Roar and War Cry heavy attacks are now once again available on paired weapons, and will play the one-handed version when used while paired.
+
+Barbaric Roar and War Cry heavy attacks are now available on the Darkmoon Greatsword, Ornamental Straight Sword and Axe of Godfrey, if applied with a 3-star Enkindled Ash of War. The special heavy attacks from their innate skills will continue to work as expected.
+
+Fixed an issue (again) where crossbows would reload slower on the second bolt input while left-handed, including DLC crossbows and stealthing.
+
+Fixed an issue where the textures of Morion, the Unbound Death were some missing speckles of gold on his wings.
+
+Adjusted the sprint delay timer (again).
+
+Version 1.4.8B
+
+Fixed the Thunderous Beast Charm not working.
+
+Version 1.4.8A
+
+Slightly decreased the damage of Dragonfire spells to account for the fact that they now hit up to twice as often.
+
+Fixed Agheel's Flame having the wrong spell slot requirements.
+
+Fixed an unintenional visual effect on the jumping cast of Morion's Doom.
+
+Fixed an issue where bow backstabs would fail to trigger.
+
+Version 1.4.8
+
+Death Dragon Greyll is now Morion, the Unbound Death, with a new model and textures contributed by cultist to fit his prior rework into a Destined Death dragon.
+
+Added Morion's Doom, a new Dragon Communion incantation which inflicts Destined Death upon foes. It may be purchased for 3 Dragon Hearts after defeating Morion, the Unbound Death. Icon made by Rem.
+
+Updated Dragonbreath spells to hit more consistently. They are now able to hit twice when uncharged and consume much less FP when charged while still hitting four times.
+
+It is now possible to perform a critical attack with a left hand weapon by pressing the "left hand attack" input (Guard + Light Attack).
+
+Added critical hits to Bows and Shields. Adjusted Whip critical hits to use Nightreign animations. Default weapon class critical modifiers are:
+Light Bows: 150
+Bows: 120
+Greatbows: 90
+Small Shields: 110
+Medium Shields: 100
+Greatshields: 90
+
+Adjusted shield scaling values to be consistent and have updated scaling every other weapon class already had in ERR. Shields now have the following updated values by default:
+Small Shields: 144/0 Str/Dex -> 125/175 Str/Dex
+Medium Shields: 240/0 Str/Dex -> 175/125 Str/Dex
+Great Shields: 300/0 Str/Dex -> 225/75 Str/Dex
+
+Updated the Body Hues and Armor Dye system to allow wearing Body Hues and Armor Dyes at the same time. This opens up many new possible color customization options.
+
+Fixed an issue where uncharged heavy attacks of War Cry, Barbaric Roar and Regal Roar would consume Northern Temper on the Fortune of the Brave.
+
+Fixed an issue where matching skills did not contribute to Northern Temper on the Fortune of the Brave.
+
+Fixed an issue where Lord's Stomp did not work on Curved Swords.
+
+Fixed an issue where paired weapons could perform "two-handed" Barbaric Roar/War Cry heavy attacks, smushing both weapons together into one. One-handing a paired weapon continues to work as normal.
+
+Fixed the Regal Roar skill and Dragonfire spell being able to deal double damage at close range.
+
+Fixed more NPCs that could accidentally obtain random Crystal Tear effects.
+
+Fixed an issue where Azash, Pride of the Redmanes was lacking cloth physics (this time for reals).
+
+Fixed the post-boss heal in the Boss Rush being affected by health recovery modifiers.
+
+Updated the Reforged Launcher to reject outdated regulation.bin files from addons, to avoid players from missing out on mod changes due to keeping old addons around, such as outdated versions of Map for Goblins Reforged which they should be manually updating every time.
+
+Reverted the dash delay from 0.25s to 0.4s in an attempt to resolve reverse roll issues.
+
+Reverted to a prior build of the Transmogrify DLL to resolve an issue where you appear fully clothed in the character creator no matter what.
+
 Version 1.4.7C
 
 Fixed an issue with the Blackflame incantation change in the previous update.
+
+Version 1.4.7B
+
+Made adjustments to the Fortune of the Brave:
+Fixed an issue where Stomp skills were not properly registered.
+Rebalanced the damage negation from Northern Temper from 15% (Stage 1) to 30% (Stage 2), to 10% (Stage 1) to 15% (Stage 2).
+The damage negation from Northern Temper is now tripled during the Endure effect. This makes the Endure at least as effective as the Ash of War version at any time.
+Northern Temper buildup will now slightly ramp up at higher levels of the effect, including both gains and losses.
+Added a visual effect on the character when at Stage 1 or above.
+Further clarified the Northern Temper status icon.
+
+Ordovis' Greatsword will now perform a Pierce-damage stab upon its running heavy attack.
+
+Fixed the Blessed and Magic affinity status icons storing their position in the list.
+
+Fixed an issue where the Fortune of the Adherent did not support Blackflame incantations.
+
+Fixed an issue where the alternate Catch Flame when using a Godslayer's Seal did not count as a Blackflame incantation.
+
+Fixed an issue where the special heavy attacks of certain unique weapons could be activated by a 3-star Ash of War: Barbaric Roar or War Cry. These unique weapons now unfortunately no longer support the special heavy attacks of those Ashes of War.
+
+Thousands of fixes and subtle cosmetic decor tweaks across Stormveil Castle, Raya Lucaria, Leyndell, Limgrave, Liurnia, Castle Morne, Castle Sol, and various minor dungeons.
+
+Fixed several spots where the player could get stuck on or between objects.
+
+Fixed various instances of sky lighting passing through parts of the environment, both with and without ray tracing.
+
+God difficulty may now be selected without clearing the Gilded Cave of Knowledge.
+
+Updated the bundled version of the Transmogrify mod by Tom Clark.
 
 Version 1.4.7A
 
