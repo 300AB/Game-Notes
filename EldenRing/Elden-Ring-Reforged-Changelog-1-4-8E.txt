@@ -1,3 +1,25 @@
+Version 1.4.8E
+
+Rellana's Twin Blades now serve as a weapon catalyst when wielding the magic blade in the main hand.
+
+Updated some values in the Fortune of the Brave, improving the negation at higher stages of Northern Temper and improving the damage dealt by the boosted heavy charged attack.
+
+Clarified some wording in the Fortune of the Brave description when describing the fact that you pay the Northern Temper price for a boosted heavy attack either when you get hit during it, or when you fully charge it, meaning the payment can be avoided by releasing the button to do an uncharged heavy attack. It does not mean that you will incur Temper penalties for receiving hits during the Endure effect.
+
+Fixed an issue where you could not perform off-hand critical hits while wielding a main-hand weapon incapable of critical hits, such as a catalyst.
+
+Fixed various issues surrounding the fire damage from Rellana's Twin Blades, such as nullifying the fire damage of the Moon-and-Fire Stance skill, and dealing magic damage on the off-hand critical hits.
+
+Fixed an issue where the Rellana's Twin Blades paired guard counter would act like a two-handed one rather than a one-handed one.
+
+Fixed an issue where the Dragonscale Curio would not function properly with the Fortune of the Brave.
+
+Updated the bundled version of Transmogrify Armor by Tom Clark.
+
+Over a thousand asset placement fixes and minor cosmetic tweaks in the Gilded Court, Yelough Anix Tunnel, Mohgwyn Palace, Ruin-Strewn Precipice, Weeping Peninsula, and more.
+
+Fixed raytracing sky lighting passing through the elevator shaft leading to Radahn's arena in Caelid.
+
 Version 1.4.8D
 
 Fixed Rellana's Twinblades having bugged damage interactions with enkindled skills.
