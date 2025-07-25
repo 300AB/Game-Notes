@@ -1,3 +1,24 @@
+Version 1.4.8G
+
+Added a special exception rule to regular catalysts and Weapon Catalysts being wielded together. Using the regular catalyst's input will now determine whether the weapon catalyst should be used instead, based on the type of the spell being cast. This allows using both types of spells while being able to attack with the weapon, without employing a dual catalyst.
+  - Example: When left-handing a seal and right-handing a sorcery weapon catalyst, pressing L1 will cast an incantation with the seal, and a sorcery with the weapon catalyst.
+
+Added a control option to disable weapon catalyst casting, allowing off-hand attacks while using weapons designated as weapon catalysts. Rellana's Twin Blades will use their unique left-handed paired attack with this option toggled.
+
+Patches will now sell the Leather armor set at the end of his quest.
+
+Increased the duration of the weapon buff applied by the unique Rancor Slash skills from 1 second to 15 seconds and fixed the skill applying the old vanilla style of Frostbite.
+
+Fixed issues where the Talisman of the Dread's one-hit poise boost could be inconsistent.
+
+Fixed some issues with Throwing Blade projectiles missing targets.
+
+Fixed an issue where Rellana's Twin Blades could not cast while two-handed in the left hand.
+
+Version 1.4.8F
+
+Fixed Rellana's Twin Blades using the wrong stat scaling curve.
+
 Version 1.4.8E
 
 Rellana's Twin Blades now serve as a weapon catalyst when wielding the magic blade in the main hand.
