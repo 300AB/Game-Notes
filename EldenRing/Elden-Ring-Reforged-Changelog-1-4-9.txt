@@ -1,3 +1,49 @@
+Version 1.4.9
+
+Added following left-hand attack functionality, accessed by holding the Guard input along with the respective input:
+    - Heavy & charged heavy attacks (including special attacks such as Roar heavies or Darkmoon Greatsword projectiles)
+    - Rolling attacks
+    - Dash attacks
+    - Duck attacks
+
+Added left-hand guard counters in situations where a right-hand guard counter is inaccessible (such as when using a right-hand catalyst or ranged weapon).
+
+The Whirling Blades Charm will now work on other light attack types.
+
+Re-organized the Controls menu, renaming "Left hand block" to "Reforged control scheme", as various Reforged features are dependant on the Left hand block toggle.
+
+Added a controls option to disable left hand attacks, now that they override more inputs.
+
+Added a controls option to prefer left-handed guard counters. When wielding two weapons, the left weapon will be preferred for guard counters when this option is enabled.
+
+Added an exception to the Wakizashi, Reduvia and Main-gauche where using the left hand attack input while wielding them in the off-hand will perform the off-hand attack even while powerstancing.
+
+Fixed an issue where weapon catalysts held along with a regular catalyst could not perform charged or channeled spells correctly.
+
+Fixed a long-standing vanilla issue where casting a right hand "quick spell" such as Swift Glintstone Shard or Catch Flame after left hand attack would use the left hand weapon's spell scaling.
+
+Added some further experimental attempts to resolve the reverse roll issue.
+
+Version 1.4.8H
+
+Torrent will now respect the "Toggle dash input" controls setting and dash with the Stealth input, and dismount with the Stealth + Interact input, when it is enabled.
+
+Decreased the spread radius of Morion's fire on the flying attack where they fly forwards and spew fire to their left.
+
+Improved the lock-on camera on Bloodfiend Chiefs.
+
+Fixed an issue where Rellana's Twin Blades could cast from the off hand when using a seal in the main hand.
+
+Fixed an issue where the Carian Catalyst Sword was not able to cast with a seal in the other hand.
+
+Fixed an issue where using a weapon catalyst with a dual catalyst would prioritize the weapon catalyst for casting.
+
+Fixed an issue where some jump attack transitions into other attacks would not be overridden by Reforged's custom transitions as desired.
+
+Fixed chain-casting bugs with Thorn spells.
+
+Fixed a vanilla hitbox that could double-hit on Dragonlord Placidusax.
+
 Version 1.4.8G
 
 Added a special exception rule to regular catalysts and Weapon Catalysts being wielded together. Using the regular catalyst's input will now determine whether the weapon catalyst should be used instead, based on the type of the spell being cast. This allows using both types of spells while being able to attack with the weapon, without employing a dual catalyst.
