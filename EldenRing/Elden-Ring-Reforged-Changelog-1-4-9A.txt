@@ -1,3 +1,25 @@
+Version 1.4.9A
+
+Changed how right and left light attacks chain into one another. They will generally attempt to maintain their "progress" through the respective combo when making the switch, unless the weapons have separate amounts of light attacks in their movesets.
+
+The Twinblade Talisman will now apply to the special paired off-hand attack of Rellana's Twin Blades.
+
+Applied the custom ERR transitions for certain right-handed attacks of certain movesets to their left-handed equivalents for a smoother combat flow.
+
+The initial skill animation of Dynast's Finesse will now cancel into a duck attack when pressing the light attack input.
+
+Fixed a freezing issue with certain left-hand attack transitions.
+
+Fixed an issue where projectiles would appear from the incorrect weapon in left-hand attacks.
+
+Fixed an issue when transitioning from a right-hand weapon with a large combo count to a left-hand weapon which has less attacks in its light combo.
+
+Fixed an issue when transitioning into left-hand attacks using the Erdtree Greatshield or Dragonclaw Shield.
+
+Fixed an issue with transitioning certain magic combo animations into those of other spells.
+
+Fixed a visual issue where performing the new off-hand attacks would not correctly keep a right-handed weapon on the shoulder.
+
 Version 1.4.9
 
 Added following left-hand attack functionality, accessed by holding the Guard input along with the respective input:
@@ -9,8 +31,6 @@ Added following left-hand attack functionality, accessed by holding the Guard in
 Added left-hand guard counters in situations where a right-hand guard counter is inaccessible (such as when using a right-hand catalyst or ranged weapon).
 
 The Whirling Blades Charm will now work on other light attack types.
-
-Re-organized the Controls menu, renaming "Left hand block" to "Reforged control scheme", as various Reforged features are dependant on the Left hand block toggle.
 
 Added a controls option to disable left hand attacks, now that they override more inputs.
 
