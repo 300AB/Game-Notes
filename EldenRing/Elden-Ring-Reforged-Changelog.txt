@@ -1,3 +1,13 @@
+Version 1.4.9D
+
+Fixed a regression where left-handed weapon catalysts would require holding the Guard input to charge a spell, not the R1 input.
+
+Fixed an issue where weapon buffs on the right-hand weapon would apply during left-hand attacks.
+
+Fixed the player not being able to receive certain effects like exultation buffs during whip, shield, and bow critical attacks.
+
+Fixed the Great-Serpent Hunt skill doing no damage.
+
 Version 1.4.9C
 
 Updated Perfect Actions to give additive action speed instead of multiplicative.
