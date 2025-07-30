@@ -1,3 +1,36 @@
+Version 1.4.9C
+
+Updated Perfect Actions to give additive action speed instead of multiplicative.
+
+Fixed a regression that resulted in an erroneous last attack in some light attack combos like for Greatshields.
+
+Fixed the Fan Shot skill having different attack multipliers depending on the arrow type.
+
+Fixed a vanilla issue where the Red Bear Hunt wind bursts were not boosted by Skill damage boosts (or Storm damage boosts).
+
+Fixed issues with some Lance and Greatshield stagger hitboxes.
+
+Fixed enemies that used purple gravity-themed weapon trails missing their trails.
+
+Fixed a regression where Magnetic Ore did not glow in the overworld.
+
+Version 1.4.9B
+
+Adjusted combo logic between alternating right and left light attacks to look more visually coherent while still progressing through the combo.
+
+Added an armor passive:
+- Verdigris Set: Increases status resistance while guarding.
+
+Fixed a regression in the logic of magic combos that would cause some spell-casting sequences to restart at the beginning.
+
+Fixed an issue where the Frozen Needle would not correctly disappear when fired with an off-hand heavy attack.
+
+Fixed an issue where the off-hand blade for Rellana's Twin Blades would be missing its attack trails.
+
+Fixed an issue with the off-hand attack of Rellana's Twin Blades and different types of off-hand attack inputs.
+
+Fixed an issue that occurred when repeating the same casting combo animation between two different spells, or repeatedly using Decree of Haima without moving, that would cause your legs to lock in place.
+
 Version 1.4.9A
 
 Changed how right and left light attacks chain into one another. They will generally attempt to maintain their "progress" through the respective combo when making the switch, unless the weapons have separate amounts of light attacks in their movesets.
