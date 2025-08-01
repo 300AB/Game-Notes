@@ -1,3 +1,41 @@
+Version 1.4.9G
+
+Fixed an issue with enemy hyper armor in the previous version.
+
+Fixed an issue with the Mimic Tear's status buildup rate when using the Spiritcaller Fortune.
+
+Version 1.4.9F
+
+Fixed an issue where characters with default posture broke their right leg in horrifying ways while performing a nimble dodge.
+
+Fixed an issue where the Sorcerer fortune could build up its buff outside of combat.
+
+Fixed an issue with the Blessed Blue Dew talisman icon flickering on and off.
+
+Version 1.4.9E
+
+Increased the damage of medium shields by 15% to loosely match that of straight swords while retaining a penalty to make up for their comparatively increased poise damage.
+
+Increased the damage of small shields by 35%.
+
+Increased the damage of torches by 5%.
+
+The Revenge of the Night skill is now tagged as a Guard Counter attack for damage boosting effects.
+
+Increased Bloodboon's fire duration from 4 seconds to 5.
+
+PvP Difficulty Changes:
+- Disabled curio effects in PvP
+- Doubled FP regeneration effectiveness
+
+Fixed an issue where left-hand backstabs were not possible if the main hand weapon was incapable of critical hits.
+
+Fixed a rotation issue with the Light rolling animation and held weapons.
+
+Hopefully fixed an issue causing strange repeats of magic animations.
+
+Fixed thousands of asset placement and lighting errors in Enir-Ilim, Stone Coffin Fissure, Belurat, Castle Ensis, Fort of Reprimand, Farum Azula, Altus Plateau, Liurnia, Raya Lucaria, Bestial Sanctum, and more.
+
 Version 1.4.9D
 
 Fixed a regression where left-handed weapon catalysts would require holding the Guard input to charge a spell, not the R1 input.
