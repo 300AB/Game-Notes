@@ -1,3 +1,9 @@
+Version 1.4.9H
+
+Fixed broken hitboxes when combining the Warcry skill with fist weapons.
+
+Fixed the "invalid magic" animation not being cancellable with the L2 input.
+
 Version 1.4.9G
 
 Fixed an issue with enemy hyper armor in the previous version.
