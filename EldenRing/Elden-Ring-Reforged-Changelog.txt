@@ -1,3 +1,27 @@
+Version 1.4.9I
+
+Increased the hitbox size of all regular shield attack hitboxes by about 40% to make attacking with them more consistent.
+
+Added a small amount of flat, non-scaling healing to healing incantations to make them a bit more effective in the early game.
+
+Added map markers with completion trackers to Archery Challenges.
+
+Fixed the Carian Retalation skill not counting as a Skill attack for damage boosting effects.
+
+Fixed the Horn Calling skill not dealing Blood Loss buildup.
+
+Fixed the first hit of the charged Carian Sovereignity skill dealing less damage than intended.
+
+Fixed issues where the Contagious Fury buff could persist when not holding the Jellyfish Shield.
+
+Fixed the different types of shields not having different hitboxes for the Shield Crash skill.
+
+Fixed issues with the Thunderous Beast Charm.
+
+Fixed certain Fortune effects not overriding eachother.
+
+Made further attempts to fix the "reverse roll" bug.
+
 Version 1.4.9H
 
 Fixed broken hitboxes when combining the Warcry skill with fist weapons.
