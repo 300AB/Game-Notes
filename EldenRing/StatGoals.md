@@ -25,30 +25,30 @@
 | Faith        | 6              | Minimal, for utility                    |
 | Arcane       | 15–20          | Status buildup scaling + item discovery |
 
-132 effective buff level  
+effective buff level add 28  
+
+| Stat         | Value |
+| ------------ | ----  |
+| Vigor        | 3     |
+| Mind         | 9     |
+| Endurance    | 3     |
+| Strength     | 2     |
+| Dexterity    | 2     |
+| Intelligence | 3     |
+| Faith        | 4     |
+| Arcane       | 2     |
+
+
+
+raw stats  
 
 | Stat         | Value |
 | ------------ | ----  |
 | Vigor        | 20    |
-| Mind         | 20    |
-| Endurance    | 13    |
-| Strength     | 20    |
-| Dexterity    | 25    |
-| Intelligence | 62    |
-| Faith        | 19    |
-| Arcane       | 32    |
-
-
-
-106 raw level  
-
-| Stat         | Value |
-| ------------ | ----  |
-| Vigor        | 18    |
 | Mind         | 13    |
 | Endurance    | 11    |
 | Strength     | 18    |
-| Dexterity    | 23    |
-| Intelligence | 60    |
-| Faith        | 12    |
+| Dexterity    | 25    |
+| Intelligence | 45    |
+| Faith        | 23    |
 | Arcane       | 30    |
