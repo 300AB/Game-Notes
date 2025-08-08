@@ -1,3 +1,32 @@
+Version 1.4.9K
+
+Increased Dagger weapon hitbox sizes by 20% to make attacking with them more consistent.
+
+Increased multiple talisman effects to provide more interesting choices when choosing between talismans.
+
+Slightly increased the speed at which poison and rot damage weaker enemies.
+
+Reduced the madness resistance of Omens and Fingercreepers.
+
+Version 1.4.9J
+
+Added an armor passive:
+- Rellana's Set: Skill use decreases the FP cost of sorceries for a brief duration, and casting sorceries decreases the FP cost of skills.
+
+Increased Hand-to-Hand weapon hitbox sizes by 20% to make attacking with them more consistent.
+
+Increased the base madness buildup of the Celebrant's weapons.
+
+The enemy crystal tear modifier "Crimsonburst Dried Tear" will no longer heal allied bosses or minibosses.
+
+Added more particle effects to enemies with the action speed increasing crystal tear modifier.
+
+Fixed hitbox issues on the light weapon version of the Wild Strikes skill.
+
+Fixed an issue where using weapon skills could trigger some effects with the requirement of "take damage".
+
+Fixed some issues with broken LOD visuals in some minor dungeons like Morne Tunnel and Gelmir Hero's Grave that could result in stretched black boxes appearing when looking down long tunnels or hallways.
+
 Version 1.4.9I
 
 Increased the hitbox size of all regular shield attack hitboxes by about 40% to make attacking with them more consistent.
