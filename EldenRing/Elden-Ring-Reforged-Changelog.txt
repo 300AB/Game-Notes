@@ -1,3 +1,27 @@
+Version 1.4.9L
+
+Increased the movement distance of Claw, Beast Claw, and Heavy Thrusting Sword guard counter attacks.
+
+Added elemental weapon buffs to the Night's Cavalry bosses beyond the first two in Limgrave, themed either after their location or the Ash of War they hold.
+
+Added some Eyes of Death near the cookbook pickup of the Blighted Twig in Stormveil.
+
+Added some additional material drops to a few minor enemy types.
+
+Applied some community-contributed changes to how some armor pieces interact with some hairstyles.
+
+Fixed some hitboxes on the Night's Cavalry and Putrescent Knight that could whiff even when it looked like they hit.
+
+Fixed the Night's  Cavalry of the Consecrated Snowfield not sharing aggro.
+
+Fixed the Cerulean Amber +3 talisman giving less FP than intended.
+
+Fixed an issue where "Strengthen character" would light up for available Binding Runes even when you do not have the Fractured Great Rune unlocked.
+
+Fixed issues with some Codex kill requirements being too high.
+
+Fixed a text issue on the Remembrance of the Elder Inquisitor.
+
 Version 1.4.9K
 
 Increased Dagger weapon hitbox sizes by 20% to make attacking with them more consistent.
