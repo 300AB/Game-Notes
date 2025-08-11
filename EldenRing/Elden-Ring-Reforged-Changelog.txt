@@ -1,3 +1,35 @@
+Version 1.4.9M
+
+The Sign of the All-Knowing is now guaranteed to tag your lock-on target instantly, and can be used from horseback.
+
+Introduced our own "reforged.dll" file for runtime modding capabilities, starting with the hitscan Sign of the All-Knowing. If you're on Linux or otherwise not using our Windows launcher, please update your configuration files accordingly.
+
+Random item adjustments:
+- Dynasts Fortune: Blood pool duration increased from 20 seconds to 25 and size increased from 3.2m to 3.5m
+- Warmaster Fortune: Bonus damage increased from 1.25x to 1.3x
+- Cleric Fortune: Increased duration of effects from 30 seconds to 50 seconds
+- Gargoyle weapon swap passive: Damage boost increased to 20%.
+- Tooth Whip: Painful strike debuff duration increased from 20 seconds to 25 seconds.
+- Euporia: Improved stat scaling curved.
+- Commander's Standard: Maximum endurance boost increased from 8 to 10.
+- Rock Heart and Priestess Heart: Damage boost increased from 15% to 10%.
+
+Updated the Angel's Wings skill on the Winged Scythe to have the new effect of healing nearby Spirit Ashes on hit.
+
+Adjusted the Dryleaf Seal and Fellthorn Fists weapon catalyst scaling.
+
+Adjusted VFX for the Knight's Lightning Spear Charged bullet impact, Galvanizing Elixir/Thunderous Beast Charm Running buff, Dragon Smasher Weapon buff, Electromagnetic Discharge, Rock Sling, Stone Sling, Gravity Well, and Golden Star.
+
+Recolored the comet portion of the Ash of War for Sword of Night and Flame to be Night themed like the description states it is.
+
+Fixed the Sentinel fortune incantation damage boost not being applied properly.
+
+Fixed some potential crash issues where player memory would be accessed by non-player entities such as the Mimic Tear.
+
+Fixed damage stacking issues with the Fire and Lightning Scorpion Charms.
+
+Fixed a vanilla bug where the fire portion of the Prelate's Charge skill did not have the skill attack tag for damage buffs.
+
 Version 1.4.9L
 
 Increased the movement distance of Claw, Beast Claw, and Heavy Thrusting Sword guard counter attacks.
