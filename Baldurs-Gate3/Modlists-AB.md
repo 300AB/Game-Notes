@@ -12,6 +12,7 @@
 | ACT Capes and Cloaks     |  |                    Add early game cloaks  |
 | AddmonBetterInventoryUI  | Better Inventory UI        | Adds more tags  |
 | Alert Feat for D20 Init  |  |       Makes alert feat +10 instead of +5  |
+| All Heads All Horns All Everything for All Races |  | Might be unrestrict flag |
 | Better Containers        |  | Changes grid to be bigger and scales size |
 | Better Context Menu      |  |     Adds icons to context menu and speed  |
 | Better Dyeing            |                       Reusable vanilla dyes  |
@@ -27,6 +28,7 @@
 | Fade's Equipment Distribution AIO |      |     More equips for classes  |
 | FaerunColors             |       |   More dyes, themed maybe reusable?  |
 | featsextra modio version |       |                          Adds feats  |
+| Free Respecs and Hirelings |     |                No more pickpocketing |
 | HairUnlocked             |       |                Unrestricts existing  |
 | ImpUI (ImprovedUI)       |       |              Mostly is a dependency  |
 | Initiate Feats           |     | Start with feat, unblocked lvl 2 flag  |
@@ -35,13 +37,17 @@
 | Metamagic Extended       |       |               More subclass options  |
 | Mod Manager Plus         |       |      Ingame installed menu controls  |
 | MoveFaster               |       |              Base speed 3.57 -> 7.5  |
+| Myshka Comes To Camp     |       |                           Adopt neko |
 | OIOLight - Just Approvals 'n' Arrows in Dialogues |           | Dialog  |
+| Origin Mirror Unlock     |       |         Unrestricts mirror on origin |
 | Paladins have gods       |       |                Flag toggle / choice  |
 | PixellBytes' Adjustable Party Limit |             |    Name and bugfix  |
+| Rox's Everyone Can Glow  |       |          Make glow color glow on all |
 | Rox's Shimmering Eyes    |       |                         Eye options  |
 | Tiefling Glowing Eyes Restored   |  |                      Eye options  |
 | Underdark Dice           |       |   Dice that match passive's default  |
 | UnlockLevelCurve - Level 13-20 Patch 8 |     | Too many things to list  |
 | UnlockLevelCurve Patch: XP x 0.5 | Above | Enables xp gain to get to new cap |
 | Vanilla CC Colours For All Sections  |          | Unrestricts existing  |
+| Weightless Camp Supplies |       |                       It do the name |
 | Windrider                |       |       Jump further and with str mod  |
