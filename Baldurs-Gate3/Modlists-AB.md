@@ -15,7 +15,7 @@
 | All Heads All Horns All Everything for All Races |  | Might be unrestrict flag |
 | Better Containers        |  | Changes grid to be bigger and scales size |
 | Better Context Menu      |  |     Adds icons to context menu and speed  |
-| Better Dyeing            |                       Reusable vanilla dyes  |
+| Better Dyeing            |  |                    Reusable vanilla dyes  |
 | Better Hotbar 2  | ImpUI | Retooled to use less space / give more info  |
 | Better Inventory UI      | ImpUI |           Backgrounds / Icons added  |
 | Better Topbar            | ImpUI |      Less wasted space, more screen  |
