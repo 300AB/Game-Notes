@@ -13,6 +13,7 @@
 | AddmonBetterInventoryUI  | Better Inventory UI        | Adds more tags  |
 | Alert Feat for D20 Init  |  |       Makes alert feat +10 instead of +5  |
 | All Heads All Horns All Everything for All Races |  | Might be unrestrict flag |
+| Backgrounds Enhanced     |  |                 Adds profs to backgrounds |
 | Better Containers        |  | Changes grid to be bigger and scales size |
 | Better Context Menu      |  |     Adds icons to context menu and speed  |
 | Better Dyeing            |  |                    Reusable vanilla dyes  |
@@ -23,6 +24,7 @@
 | BFR: Scratch Overhaul    |       |                    Name, does a lot  |
 | Custom Dice in Passive Rolls     | ImpUI |              Well, the name  |
 | D20Initiative            |       |     Changes the default d4 to a d20  |
+| Darker Black Hair        |       |              Adds 7 new hair colors  |
 | Extra encounters and Minibosses  |       |                    The name  |
 | FacesUnlocked            |       |                Unrestricts existing  |
 | Fade's Equipment Distribution AIO |      |     More equips for classes  |
@@ -44,10 +46,12 @@
 | PixellBytes' Adjustable Party Limit |             |    Name and bugfix  |
 | Rox's Everyone Can Glow  |       |          Make glow color glow on all |
 | Rox's Shimmering Eyes    |       |                         Eye options  |
+| Summon Tutorial Chest    |       |       Use hide once to gain spell    |
+| Super Skip Ship, SSS     |       |    Skips, I will go insane if again  |
 | Tiefling Glowing Eyes Restored   |  |                      Eye options  |
 | Underdark Dice           |       |   Dice that match passive's default  |
 | UnlockLevelCurve - Level 13-20 Patch 8 |     | Too many things to list  |
 | UnlockLevelCurve Patch: XP x 0.5 | Above | Enables xp gain to get to new cap |
 | Vanilla CC Colours For All Sections  |          | Unrestricts existing  |
 | Weightless Camp Supplies |       |                       It do the name |
-| Windrider                |       |       Jump further and with str mod  |
+| Windrider     [Disabled] |       |       Jump further and with str mod  |
