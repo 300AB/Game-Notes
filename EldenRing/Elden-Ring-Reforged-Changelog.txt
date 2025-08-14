@@ -1,8 +1,43 @@
+Version 1.4.9P
+
+Fixed an issue where changing your direction while casting walkable spells would delay the casting of the spell.
+
+Version 1.4.9O
+
+Rescinded support for the "UnlockTheFps" DLL mod as raising your FPS above 60 has been repeatedly noted to cause issues with game behaviors, including Reforged systems like deflects (for instance, causing Waterfowl Dance to no longer be deflectable). Please avoid using FPS-unlocking mods and addons, as ELDEN RING is simply not built to support it.
+
+Fixed a critical issue in the bundled "Scripts-Data-Exposer-FS" DLL mod where various game parameter values were incorrectly missing or not read in various situations. This affected the scaling of status buildup from Arcane and other effects, the scaling of FP regen from Intelligence and other effects, and the functioning of the Spiritcaller Fortune.
+
+
+Version 1.4.9N
+
+Potentially fixed a crash issue when using the Sign of the All-Knowing on a Japanese version of the game.
+
+Greatly increased the animation speed of the Hone Blade unique skill.
+
+Fixed an issue where left-handed heavy attacks, such as the Dark Moon Greatsword, would not fire their unique projectiles.
+
+Fixed an issue where fully performing a left-hand special heavy attack on the Dark Moon Greatsword, Ornamental Straight Sword or Godfrey's Axe would lock up the character.
+
+Fixed an issue where powerstancing would disable access to left-hand heavy attacks.
+
+Fixed the Ambushing Poacher's Curio not working.
+
+Fixed the Snow Witch Scepter having the wrong R2 attack.
+
+Fixed an issue where the Dismounted Tree Sentinel could become indefinitely frozen when suffering from madness.
+
+Fixed an issue where other mods could give access to unfinished, unintended, and/or broken items.
+
 Version 1.4.9M
 
 The Sign of the All-Knowing is now guaranteed to tag your lock-on target instantly, and can be used from horseback.
 
 Introduced our own "reforged.dll" file for runtime modding capabilities, starting with the hitscan Sign of the All-Knowing. If you're on Linux or otherwise not using our Windows launcher, please update your configuration files accordingly.
+
+Updated the Angel's Wings skill on the Winged Scythe to have the new effect of healing nearby Spirit Ashes on hit.
+
+Adjusted the Dryleaf Seal and Fellthorn Fists weapon catalyst scaling. The Dryleaf Seal now leans more towards its quality faith scaling with a better stat scaling curve, and the Fellthorn Fists have become str/fth scaling.
 
 Random item adjustments:
 - Dynasts Fortune: Blood pool duration increased from 20 seconds to 25 and size increased from 3.2m to 3.5m
@@ -12,11 +47,7 @@ Random item adjustments:
 - Tooth Whip: Painful strike debuff duration increased from 20 seconds to 25 seconds.
 - Euporia: Improved stat scaling curved.
 - Commander's Standard: Maximum endurance boost increased from 8 to 10.
-- Rock Heart and Priestess Heart: Damage boost increased from 15% to 10%.
-
-Updated the Angel's Wings skill on the Winged Scythe to have the new effect of healing nearby Spirit Ashes on hit.
-
-Adjusted the Dryleaf Seal and Fellthorn Fists weapon catalyst scaling.
+- Rock Heart and Priestess Heart: Damage boost increased from 10% to 15%.
 
 Adjusted VFX for the Knight's Lightning Spear Charged bullet impact, Galvanizing Elixir/Thunderous Beast Charm Running buff, Dragon Smasher Weapon buff, Electromagnetic Discharge, Rock Sling, Stone Sling, Gravity Well, and Golden Star.
 
