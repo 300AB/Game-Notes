@@ -1,0 +1,325 @@
+ 
+
+    param EquipParamGoods: id 2070: refId_default: = 3246;
+    param EquipParamGoods: id 2071: refId_default: = 3247;
+    param EquipParamGoods: id 2072: refId_default: = 3248;
+    param EquipParamGoods: id 2073: refId_default: = 3249;
+
+
+
+    param AssetEnvironmentGeometryParam: idrange 99651 99939 && vanillaprop isEnableRepick 1: isEnableRepick: = 0;
+    param AssetEnvironmentGeometryParam: idrange 463771 463950 && vanillaprop isEnableRepick 1: isEnableRepick: = 0;
+
+
+
+    param EquipMtrlSetParam: idrange 1 24: itemNum01: = 1;
+    param EquipMtrlSetParam: idrange 2201 2209: itemNum01: = 1;
+
+
+
+    param ShopLineupParam: idrange 50000100 58011270: value: * 0.4;
+    param ShopLineupParam: idrange 50000100 58011270 && prop value 0: value: = 1;
+
+
+
+    param EquipParamGoods: idrange 300000 390021 && positive consumeMP: consumeMP: * 0.4;
+    param EquipParamGoods: idrange 300000 390021 && positive consumeHP: consumeHP: * 0.4;
+
+
+
+    param ShopLineupParam_Recipe: id 30030: value: = 2100;
+
+
+
+    param EquipParamGem: idrange 1010000 1800000 && prop sellValue 1000: sellValue: = 9000;
+    param EquipParamGem: idrange 1010000 1800000 && prop sellValue 5000: sellValue: = 12600;
+    param EquipParamGem: idrange 1010000 1800000 && prop sellValue 30000: sellValue: = 40000;
+
+
+
+
+    param WeatherLotParam: id 610000000: lotteryWeight0:      = 20;
+    param WeatherLotParam: id 610000000: lotteryWeight1:      = 380;
+    param WeatherLotParam: id 610000000: lotteryWeight2:      = 200;
+    param WeatherLotParam: id 610000000: lotteryWeight3:      = 200;
+    param WeatherLotParam: id 610000000: lotteryWeight4:      = 180;
+    param WeatherLotParam: id 610000000: lotteryWeight5:      = 60; 
+    param WeatherLotParam: id 610000000: lotteryWeight6:      = 40; 
+    param WeatherLotParam: id 610000000: lotteryWeight7:      = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight8:      = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight9:      = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight10:     = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight11:     = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight12:     = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight13:     = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight14:     = 0;  
+    param WeatherLotParam: id 610000000: lotteryWeight15:     = 0;  
+    param WeatherLotParam: id 610000000: timezoneLimit:       = 0;  
+    param WeatherLotParam: id 610000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 610000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 610000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 610000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 610000001: lotteryWeight0:      = 20;
+    param WeatherLotParam: id 610000001: lotteryWeight1:      = 280;
+    param WeatherLotParam: id 610000001: lotteryWeight2:      = 100;
+    param WeatherLotParam: id 610000001: lotteryWeight3:      = 100;
+    param WeatherLotParam: id 610000001: lotteryWeight4:      = 70;
+    param WeatherLotParam: id 610000001: lotteryWeight5:      = 60;
+    param WeatherLotParam: id 610000001: lotteryWeight6:      = 40;
+    param WeatherLotParam: id 610000001: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight9:      = 400;
+    param WeatherLotParam: id 610000001: lotteryWeight10:     = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 610000001: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 610000001: timezoneLimit:       = 6;
+    param WeatherLotParam: id 610000001: timezoneStartHour:   = 5;
+    param WeatherLotParam: id 610000001: timezoneStartMinute: = 30;
+    param WeatherLotParam: id 610000001: timezoneEndHour:     = 6;
+    param WeatherLotParam: id 610000001: timezoneEndMinute:   = 20;
+
+    param WeatherLotParam: id 620000000: lotteryWeight0:      = 20;
+    param WeatherLotParam: id 620000000: lotteryWeight1:      = 400;
+    param WeatherLotParam: id 620000000: lotteryWeight2:      = 20;
+    param WeatherLotParam: id 620000000: lotteryWeight3:      = 180;
+    param WeatherLotParam: id 620000000: lotteryWeight4:      = 210;
+    param WeatherLotParam: id 620000000: lotteryWeight5:      = 70;
+    param WeatherLotParam: id 620000000: lotteryWeight6:      = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight9:      = 100;
+    param WeatherLotParam: id 620000000: lotteryWeight10:     = 70;
+    param WeatherLotParam: id 620000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 620000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 620000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 620000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 620000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 620000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 620000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 630000000: lotteryWeight0:      = 20;
+    param WeatherLotParam: id 630000000: lotteryWeight1:      = 380;
+    param WeatherLotParam: id 630000000: lotteryWeight2:      = 200;
+    param WeatherLotParam: id 630000000: lotteryWeight3:      = 200;
+    param WeatherLotParam: id 630000000: lotteryWeight4:      = 180;
+    param WeatherLotParam: id 630000000: lotteryWeight5:      = 60;
+    param WeatherLotParam: id 630000000: lotteryWeight6:      = 40;
+    param WeatherLotParam: id 630000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight9:      = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight10:     = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 630000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 630000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 630000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 630000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 630000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 630000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 630000001: lotteryWeight0:      = 20;
+    param WeatherLotParam: id 630000001: lotteryWeight1:      = 280;
+    param WeatherLotParam: id 630000001: lotteryWeight2:      = 100;
+    param WeatherLotParam: id 630000001: lotteryWeight3:      = 100;
+    param WeatherLotParam: id 630000001: lotteryWeight4:      = 70;
+    param WeatherLotParam: id 630000001: lotteryWeight5:      = 60;
+    param WeatherLotParam: id 630000001: lotteryWeight6:      = 40;
+    param WeatherLotParam: id 630000001: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight9:      = 400;
+    param WeatherLotParam: id 630000001: lotteryWeight10:     = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 630000001: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 630000001: timezoneLimit:       = 6;
+    param WeatherLotParam: id 630000001: timezoneStartHour:   = 5;
+    param WeatherLotParam: id 630000001: timezoneStartMinute: = 30;
+    param WeatherLotParam: id 630000001: timezoneEndHour:     = 6;
+    param WeatherLotParam: id 630000001: timezoneEndMinute:   = 20;
+
+    param WeatherLotParam: id 635000000: lotteryWeight0:      = 20;
+    param WeatherLotParam: id 635000000: lotteryWeight1:      = 390;
+    param WeatherLotParam: id 635000000: lotteryWeight2:      = 200;
+    param WeatherLotParam: id 635000000: lotteryWeight3:      = 200;
+    param WeatherLotParam: id 635000000: lotteryWeight4:      = 200;
+    param WeatherLotParam: id 635000000: lotteryWeight5:      = 60;
+    param WeatherLotParam: id 635000000: lotteryWeight6:      = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight9:      = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight10:     = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 635000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 635000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 635000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 635000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 635000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 635000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 640000000: lotteryWeight0:      = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight1:      = 600;
+    param WeatherLotParam: id 640000000: lotteryWeight2:      = 140;
+    param WeatherLotParam: id 640000000: lotteryWeight3:      = 140;
+    param WeatherLotParam: id 640000000: lotteryWeight4:      = 130;
+    param WeatherLotParam: id 640000000: lotteryWeight5:      = 40;
+    param WeatherLotParam: id 640000000: lotteryWeight6:      = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight9:      = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight10:     = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 640000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 640000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 640000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 640000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 640000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 640000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 641000000: lotteryWeight0:      = 1;
+    param WeatherLotParam: id 641000000: lotteryWeight1:      = 800;
+    param WeatherLotParam: id 641000000: lotteryWeight2:      = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight3:      = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight4:      = 200;
+    param WeatherLotParam: id 641000000: lotteryWeight5:      = 70;
+    param WeatherLotParam: id 641000000: lotteryWeight6:      = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight9:      = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight10:     = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 641000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 641000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 641000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 641000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 641000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 641000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 680000000: lotteryWeight0:      = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight1:      = 410;
+    param WeatherLotParam: id 680000000: lotteryWeight2:      = 150;
+    param WeatherLotParam: id 680000000: lotteryWeight3:      = 150;
+    param WeatherLotParam: id 680000000: lotteryWeight4:      = 180;
+    param WeatherLotParam: id 680000000: lotteryWeight5:      = 70;
+    param WeatherLotParam: id 680000000: lotteryWeight6:      = 60;
+    param WeatherLotParam: id 680000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight9:      = 50;
+    param WeatherLotParam: id 680000000: lotteryWeight10:     = 20;
+    param WeatherLotParam: id 680000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 680000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 680000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 680000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 680000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 680000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 680000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 680000100: lotteryWeight0:      = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight1:      = 410;
+    param WeatherLotParam: id 680000100: lotteryWeight2:      = 150;
+    param WeatherLotParam: id 680000100: lotteryWeight3:      = 150;
+    param WeatherLotParam: id 680000100: lotteryWeight4:      = 180;
+    param WeatherLotParam: id 680000100: lotteryWeight5:      = 70;
+    param WeatherLotParam: id 680000100: lotteryWeight6:      = 60;
+    param WeatherLotParam: id 680000100: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight9:      = 50;
+    param WeatherLotParam: id 680000100: lotteryWeight10:     = 20;
+    param WeatherLotParam: id 680000100: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 680000100: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 680000100: timezoneLimit:       = 0;
+    param WeatherLotParam: id 680000100: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 680000100: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 680000100: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 680000100: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 683000000: lotteryWeight0:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight1:      = 50;
+    param WeatherLotParam: id 683000000: lotteryWeight2:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight3:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight4:      = 260;
+    param WeatherLotParam: id 683000000: lotteryWeight5:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight6:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight9:      = 10;
+    param WeatherLotParam: id 683000000: lotteryWeight10:     = 10;
+    param WeatherLotParam: id 683000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight12:     = 720;
+    param WeatherLotParam: id 683000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 683000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 683000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 683000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 683000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 683000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 683000000: timezoneEndMinute:   = 0;
+
+    param WeatherLotParam: id 690000000: lotteryWeight0:      = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight1:      = 410;
+    param WeatherLotParam: id 690000000: lotteryWeight2:      = 150;
+    param WeatherLotParam: id 690000000: lotteryWeight3:      = 150;
+    param WeatherLotParam: id 690000000: lotteryWeight4:      = 180;
+    param WeatherLotParam: id 690000000: lotteryWeight5:      = 70;
+    param WeatherLotParam: id 690000000: lotteryWeight6:      = 60;
+    param WeatherLotParam: id 690000000: lotteryWeight7:      = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight8:      = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight9:      = 50;
+    param WeatherLotParam: id 690000000: lotteryWeight10:     = 20;
+    param WeatherLotParam: id 690000000: lotteryWeight11:     = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight12:     = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight13:     = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight14:     = 0;
+    param WeatherLotParam: id 690000000: lotteryWeight15:     = 0;
+    param WeatherLotParam: id 690000000: timezoneLimit:       = 0;
+    param WeatherLotParam: id 690000000: timezoneStartHour:   = 0;
+    param WeatherLotParam: id 690000000: timezoneStartMinute: = 0;
+    param WeatherLotParam: id 690000000: timezoneEndHour:     = 0;
+    param WeatherLotParam: id 690000000: timezoneEndMinute:   = 0;
+
+
+
+    param WeatherParam: id 20: NextLotIngameSecondsMin:             = 7200;
+    param WeatherParam: id 20: NextLotIngameSecondsMax:             = 18000;
+    param WeatherParam: id 20: aiSightRate:                         = 1;    
+    param WeatherParam: id 20: DistViewWeatherGparamOverrideWeight: = 0.3;  
+
+    param WeatherParam: id 21: NextLotIngameSecondsMin:             = 7200; 
+    param WeatherParam: id 21: NextLotIngameSecondsMax:             = 18000;
+    param WeatherParam: id 21: aiSightRate:                         = 0.9;  
+    param WeatherParam: id 21: DistViewWeatherGparamOverrideWeight: = 0.3;  
+
+    param WeatherParam: id 30: NextLotIngameSecondsMin:             = 7200; 
+    param WeatherParam: id 30: NextLotIngameSecondsMax:             = 18000;
+    param WeatherParam: id 30: aiSightRate:                         = 0.8;  
+    param WeatherParam: id 30: DistViewWeatherGparamOverrideWeight: = 0.3;  
+
+    param WeatherParam: id 52: NextLotIngameSecondsMin:             = 7200; 
+    param WeatherParam: id 52: NextLotIngameSecondsMax:             = 18000;
+    param WeatherParam: id 52: aiSightRate:                         = 0.8;  
+    param WeatherParam: id 52: DistViewWeatherGparamOverrideWeight: = 0.3; 
