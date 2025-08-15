@@ -5,6 +5,7 @@ NextLotIngameSecondsMin,NextLotIngameSecondsMax,aiSightRate,DistViewWeatherGpara
 52,7200,18000,0.8,0.3
 
 
+
 ID,Name,                                    SfxId,WindSfxId,GroundHitSfxId,SoundId,WetTime,GparamId,NextLotIngameSecondsMin,NextLotIngameSecondsMax,WetSpEffectId00,WetSpEffectId01,WetSpEffectId02,WetSpEffectId03,WetSpEffectId04,SfxIdInoor,SfxIdOutdoor,aiSightRate,DistViewWeatherGparamOverrideWeight,
 20,Rain (EMEVD weather enum 1),            806100,   808006,1004010,806100,20,20,7200,18000,4650,4600,-1,-1,-1,-1,-1    ,1,0.3
 21,Rainy Clouds (EMEVD weather enum 8),    806100,   808006,1004010,806100,20,20,7200,18000,4651,4601,-1,-1,-1,-1,-1    ,0.9,0.3
