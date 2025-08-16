@@ -70,7 +70,7 @@ you may instead use the terms of the **GNU General Public License v3.0**.
 
 ## 🔗 Related
 
-* [Blood Chain General Public License v1 (BCGPL)](https://300ab.github.io/downloads/BloodChain.v1.txt)
+* [Blood Chain General Public License v1 (BCGPL)](https://300ab.github.io/downloads/blood_chain_license_v_1.txt)
 * [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 * [Fandom Licensing FAQ](https://community.fandom.com/wiki/Help:Licensing)
 
