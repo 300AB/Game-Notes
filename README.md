@@ -1,6 +1,6 @@
 # 🎮 Game-Notes
 
-A curated collection of game notes, tweaks, and references in `.md`, `.py`, `.txt`, and other formats — optimized for clarity, offline access, and speed.
+A curated collection of game notes, tweaks, and references in `.md`, `.py`, `.txt`, and other formats for clarity, offline access, and speed.  
 
 ---
 
@@ -17,9 +17,10 @@ This repository includes:
 
 ## 🧾 Attribution: Elden Ring Reforged Wiki
 
-This repository includes offline copies of select pages from the **Elden Ring Reforged Wiki** hosted on [Fandom](https://eldenring.fandom.com/wiki/Elden_Ring_Reforged_Wiki).
+This repository includes offline copies of select pages from the **Elden Ring Reforged Wiki**  hosted on [Fandom](https://eldenring.fandom.com/wiki/Elden_Ring_Reforged_Wiki).
 
-These files are used under the terms of the **Creative Commons Attribution-ShareAlike 3.0 Unported License** ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)).
+These files are used under the terms of the **Creative Commons Attribution-ShareAlike 3.0  
+  Unported License** ([CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)).
 
 ### Source Pages:
 
@@ -31,7 +32,7 @@ These files are used under the terms of the **Creative Commons Attribution-Share
 ### Modifications:
 
 * Converted to standalone `.html` files for offline reading.
-* Offline wiki files are **not mine** — just preserved snapshots for ease of access, with proper attribution.
+* Offline wiki files are **not mine**: just preserved snapshots for ease of access, with proper attribution.
 
 See [`EldenRing/ATTRIBUTIONS.md`](./EldenRing/ATTRIBUTIONS.md) for source breakdown.
 
@@ -43,12 +44,14 @@ All **original code, scripts, and documentation** in this repository are release
 
 ### 🔻 Blood Chain General Public License v1
 
-> © 2025 — 300AB // Jamie
+> © 2025 — 300AB // Jamie  
 > [Read full license](https://300ab.github.io/downloads/BloodChain.v1.txt) or see [`LICENSE`](./LICENSE)
 
-You may use, modify, and redistribute the original works under the terms of the **BCGPL v1**.
+You may use, modify, and redistribute the original works under the terms of the **BCGPL v1**.  
 
-If you are **legally unable to comply with the BCGPL** due to jurisdictional conflict, institutional policy, or software compatibility: you may instead use the terms of the **GNU General Public License v3.0**.
+If you are **legally unable to comply with the BCGPL** due to:  
+jurisdictional conflict, institutional policy, or software compatibility:  
+you may instead use the terms of the **GNU General Public License v3.0**.  
 
 > This failback is provided **for accessibility and compliance**, not as a co-equal alternative.
 
@@ -73,9 +76,9 @@ If you are **legally unable to comply with the BCGPL** due to jurisdictional con
 
 ---
 
-### 🜛 This project lives unfinished — by design.
+### 🜛 This project lives unfinished by design.
 
 If you spot something strange, broken links, missing credit, or licensing edges:
 open an issue. I do read them.
 
-`— 300AB // Jamie`
+>300AB // Jamie
