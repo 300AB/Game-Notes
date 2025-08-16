@@ -1,8 +1,45 @@
-Attribution for Included Wiki Content
--------------------------------------
+# 📝 Elden Ring Reforged Wiki Attributions
 
-Some files in this repository are derived from the Elden Ring Reforged Wiki (Fandom).
-They are provided under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+This file details the sources of offline wiki content included in this repository. All content is preserved under **CC BY-SA 3.0**, per Fandom licensing, and has been minimally modified for offline readability.
 
-Original wiki: https://eldenring.fandom.com/wiki/Elden_Ring_Reforged_Wiki
-License: https://creativecommons.org/licenses/by-sa/3.0/
+---
+
+## 🔹 Weapons
+
+* Original page: [Weapons – Elden Ring Reforged Wiki](https://eldenring.fandom.com/wiki/Weapons)
+* Modifications: Converted to standalone `.html` for offline use; formatting only.
+
+---
+
+## 🔹 Vanilla Weapons Changes
+
+* Original page: [Vanilla Weapons Changes – Elden Ring Reforged Wiki](https://eldenring.fandom.com/wiki/Vanilla_Weapons_Changes)
+* Modifications: Converted to standalone `.html`; no content edits beyond formatting.
+
+---
+
+## 🔹 Ranged Weapons
+
+* Original page: [Ranged Weapons – Elden Ring Reforged Wiki](https://eldenring.fandom.com/wiki/Ranged_Weapons)
+* Modifications: Converted to standalone `.html`; formatting adjustments only.
+
+---
+
+## 🔹 Character Changes
+
+* Original page: [Character Changes – Elden Ring Reforged Wiki](https://eldenring.fandom.com/wiki/Character_Changes)
+* Modifications: Converted to standalone `.html`; formatting adjustments only.
+
+---
+
+## ⚠️ Notes
+
+* These offline files are **preserved snapshots** for convenience and are **not original work**.
+* Proper attribution is maintained per CC BY-SA 3.0 license.
+* If you are the content owner and wish to request removal or correction, please open an issue.
+
+---
+
+### 🜛 End of Attributions
+
+`— 300AB // Jamie`
