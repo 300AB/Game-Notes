@@ -45,7 +45,7 @@ All **original code, scripts, and documentation** in this repository are release
 ### 🔻 Blood Chain General Public License v1
 
 > © 2025 — 300AB // Jamie  
-> [Read full license](https://300ab.github.io/downloads/BloodChain.v1.txt) or see [`LICENSE`](./LICENSE)
+> [Read full license](https://300ab.github.io/downloads/blood_chain_license_v_1.txt) or see [`LICENSE`](./LICENSE)
 
 You may use, modify, and redistribute the original works under the terms of the **BCGPL v1**.  
 
