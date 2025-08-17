@@ -1,3 +1,28 @@
+Version 1.4.9S
+
+Fixed issues with attacks.
+
+Version 1.4.9R
+
+Added a weapon passive:
+- Dancing Blade of Ranah: Continous perfect actions will build up a stacking fire damage increase as long as perfect actions persist.
+
+Added some additional effects to armament buff spells:
+- Electrify Armament: Melee attacks consume slightly less stamina.
+- Scholar's Armament: Melee attacks restore slightly more FP.
+
+FPS unlock mods will no longer be completely removed, but a warning will continue to appear.
+
+Fixed a crash issue for the Japanese version of the game where using the Sign of the All-Knowing would cause a game crash.
+
+Fixed a long-standing issue where random other languages would find their way into Reforged NPC dialogue and hint messages in non-English localizations.
+
+Version 1.4.9Q
+
+Fixed Fortune effects not applying in offline "fake multiplayer" scenarios like invasions and summons.
+
+Fixed lighting issues in the Stone Coffin Fissure.
+
 Version 1.4.9P
 
 Fixed an issue where changing your direction while casting walkable spells would delay the casting of the spell.
