@@ -93,7 +93,12 @@
 * Npc broker for item sales.  
     * Upon interaction get teleported to player's (seller's) hideout.  
     * Buy through the broker there  
+    * There is a gold tax
+    * You can turn one of your premo tabs into this new sale tab type
     * See seller's other items for sale there too  
+      * Can only update items for sale every 5min
+        * if someone goes to your hideout this refreshes
+          * e.g, cannot price swap and price fixing should go way down
 ### Rise of the Abyssal - League Mechanic  
 * Rise of the Abyssal will be the new League mechanic for 0.3.  
 * Maps will have more monsters from the Abyss to fight; 
@@ -109,7 +114,9 @@
 * Sanctified Items can no longer be crafted upon, so this will often be the  final step of crafting a mirror-tier item.  
 * We saw a Omen being applied to a Divine Orb to sanctify and item upon use.  
     * New Omens
-    * Hinekora's Lock added (idk what that is)
+    * Hinekora's Lock added 
+      * foresee items next currency item affect it will have
+        * modifting the item makes it so you cannot foresee
 
 
 # Pacing
