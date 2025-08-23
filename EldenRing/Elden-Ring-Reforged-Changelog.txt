@@ -1,3 +1,42 @@
+Version 1.4.9T3
+
+Fixed some lingering issues after the ELDEN RING version update, such as crashes on Linux and the broken Sign of the All-Knowing functionality.
+
+Improved the effects of the Sapping Crystal Tears from the DLC. The effect lasts for 90 seconds instead of 60 and the restoration is easier to keep active.
+
+Version 1.4.9T2
+
+Reverted the behavior of the Sign of the All-Knowing item to use a projectile again for now, due to the custom behavior not working with the new Elden Ring update.
+
+Version 1.4.9T
+
+Updated to Elden Ring calibrations version 1.16.1.
+
+Updated the thresholds for different equip load frames:
+- Nimble Frame: 0-33.3%
+- Balanced Frame: 33.3-66.6%
+- Solid Frame: 66.6-99.9%
+
+The Fortune of the Bulwark is now compatible with Dueling Shields.
+
+Increased the animation speed of some Curved Sword and Scythe R2 charged attacks.
+
+Added new status icons when receiving buffs that are damage-type specific.
+
+Replaced the vanilla game reuse of the Silver Tear Husk asset for the Congealed Putrescence material pickup with a purple, gooier version.
+
+Fixed the vanilla Eyes of Yelough material pickups being red.
+
+Fixed the Bestial affinity on-hit effect not working.
+
+Fixed Vulgar Militia enemies taking very little damage from status effects.
+
+Fixed incorrect settings on the vanilla implementation of Raytracing that caused very intense Ambient Occlusion on characters faces when Raytracing was enabled.
+
+Fixed a major issue with translations where most of the text would display in English rather than in the original native language.
+
+Fixed a visual glitch with left-handed backstabs.
+
 Version 1.4.9S
 
 Fixed issues with attacks.

@@ -4,7 +4,14 @@ NextLotIngameSecondsMin,NextLotIngameSecondsMax,aiSightRate,DistViewWeatherGpara
 30,7200,18000,0.8,0.3
 52,7200,18000,0.8,0.3
 
-
+ID,Name,equipId,value,mtrlId,eventFlag_forStock,eventFlag_forRelease,sellQuantity,pad3,equipType,costType,pad1,setNum,value_Add,value_Magnification,iconId,nameMsgId,menuTitleMsgId,menuIconId,pad2,
+899001,,850010,20000,-1,0,0,-1,0,3,0,0,1,0,1,-1,-1,227029,0,[0|0]
+899000,,800010,5000,-1,0,0,-1,0,3,0,0,1,0,1,-1,-1,227029,0,[0|0]
+101877,[Twin Maiden Husks] Knight Greaves,22000,50000,-1,250480,0,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
+101876,[Twin Maiden Husks] Knight Gauntlets,800010,20000,-1,250470,0,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
+101875,[Twin Maiden Husks] Knight Armor,10070,25000,-1,250460,9105,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
+899002,,10070,10000,-1,0,0,-1,0,3,0,0,1,0,1,-1,-1,227029,0,[0|0]
+100231,[Iji] Infinite Lost Ashes,10070,50000,-1,120270,0,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
 
 ID,Name,                                    SfxId,WindSfxId,GroundHitSfxId,SoundId,WetTime,GparamId,NextLotIngameSecondsMin,NextLotIngameSecondsMax,WetSpEffectId00,WetSpEffectId01,WetSpEffectId02,WetSpEffectId03,WetSpEffectId04,SfxIdInoor,SfxIdOutdoor,aiSightRate,DistViewWeatherGparamOverrideWeight,
 20,Rain (EMEVD weather enum 1),            806100,   808006,1004010,806100,20,20,7200,18000,4650,4600,-1,-1,-1,-1,-1    ,1,0.3
@@ -12,6 +19,39 @@ ID,Name,                                    SfxId,WindSfxId,GroundHitSfxId,Sound
 30,Windy Rain (EMEVD weather enum 3),      806130,   808004,1004010,806130,20,30,7200,18000,4652,4602,-1,-1,-1,-1,806132,0.8,0.3
 52,Rainy Heavy Fog (EMEVD weather enum 15),806100,   808006,1004010,806100,20,51,7200,18000,4650,4600,-1,-1,-1,-1,-1    ,0.8,0.3
 
+#iji shop edit 
+
+    param ShopLineupParam: id 100231: Name: = [Iji] Infinite Lost Ashes;
+    param ShopLineupParam: id 100231: equipId: = 10070;
+    param ShopLineupParam: id 100231: value: = 50000;
+    param ShopLineupParam: id 100231: mtrlId: = -1;
+    param ShopLineupParam: id 100231: eventFlag_forStock: = 120270;
+    param ShopLineupParam: id 100231: eventFlag_forRelease: = 0;
+    param ShopLineupParam: id 100231: sellQuantity: = -1;
+    param ShopLineupParam: id 100231: pad3: = 0;
+    param ShopLineupParam: id 100231: equipType: = 3;
+    param ShopLineupParam: id 100231: costType: = 0;
+    param ShopLineupParam: id 100231: pad1: = 0;
+    param ShopLineupParam: id 100231: setNum: = 5;
+    param ShopLineupParam: id 100231: value_Add: = 0;
+    param ShopLineupParam: id 100231: value_Magnification: = 1;
+    param ShopLineupParam: id 100231: iconId: = -1;
+    param ShopLineupParam: id 100231: nameMsgId: = -1;
+    param ShopLineupParam: id 100231: menuTitleMsgId: = -1;
+    param ShopLineupParam: id 100231: menuIconId: = -1;
+    param ShopLineupParam: id 100231: pad2: = 0;
+
+
+ #patches shop edit
+
+    param ShopLineupParam: id 100105: sellQuantity: = -1;
+    param ShopLineupParam: id 100105: value: = 5000;
+
+    param ShopLineupParam: id 100104: setNum: = 5;
+    param ShopLineupParam: id 100104: sellQuantity: = -1;
+    param ShopLineupParam: id 100104: value: = 5000;
+    param ShopLineupParam: id 100104: equipId: = 15080;
+    param ShopLineupParam: id 100104: Name: = [Patches] Fowl Foot [Ex Glass Shard];
 
 
 #restore default lantern fuel ERR 

@@ -1,0 +1,10 @@
+ID,Name,equipId,value,mtrlId,eventFlag_forStock,eventFlag_forRelease,sellQuantity,pad3,equipType,costType,pad1,setNum,value_Add,value_Magnification,iconId,nameMsgId,menuTitleMsgId,menuIconId,pad2,
+899001,,850010,5000,-1,0,0,-1,0,3,0,0,5,0,1,-1,-1,227029,0,[0|0]
+899000,,800010,2000,-1,0,0,-1,0,3,0,0,2,0,1,-1,-1,227029,0,[0|0]
+101877,[Twin Maiden Husks] Knight Greaves,22000,50000,-1,250480,0,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
+101876,[Twin Maiden Husks] Knight Gauntlets,800010,20000,-1,250470,0,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
+101875,[Twin Maiden Husks] Knight Armor,10070,25000,-1,250460,9105,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
+899002,,10070,10000,-1,0,0,-1,0,3,0,0,10,0,1,-1,-1,227029,0,[0|0]
+100231,[Iji] Infinite Lost Ashes,10070,50000,-1,120270,0,-1,0,3,0,0,5,0,1,-1,-1,-1,-1,[0|0]
+
+

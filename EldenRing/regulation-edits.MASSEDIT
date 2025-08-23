@@ -1,11 +1,23 @@
- 
+    param ShopLineupParam: proprange value 15000 50000: value: * 0.4;
+
+    param ShopLineupParam: id 100231: Name: = [Iji] Infinite Lost Ashes;
+    param ShopLineupParam: id 100231: equipId: = 10070;
+    param ShopLineupParam: id 100231: value: = 50000;
+    param ShopLineupParam: id 100231: eventFlag_forStock: = 120270;
+    param ShopLineupParam: id 100231: eventFlag_forRelease: = 0;
+    param ShopLineupParam: id 100231: sellQuantity: = -1;
+    param ShopLineupParam: id 100231: setNum: = 5;
+
+    param ShopLineupParam: id 100104: setNum: = 5;
+    param ShopLineupParam: id 100104: sellQuantity: = -1;
+    param ShopLineupParam: id 100104: value: = 5000;
+    param ShopLineupParam: id 100104: equipId: = 15080;
+    param ShopLineupParam: id 100104: Name: = [Patches] Fowl Foot [Ex Glass Shard];
 
     param EquipParamGoods: id 2070: refId_default: = 3246;
     param EquipParamGoods: id 2071: refId_default: = 3247;
     param EquipParamGoods: id 2072: refId_default: = 3248;
     param EquipParamGoods: id 2073: refId_default: = 3249;
-
-
 
     param AssetEnvironmentGeometryParam: idrange 99651 99939 && vanillaprop isEnableRepick 1: isEnableRepick: = 0;
     param AssetEnvironmentGeometryParam: idrange 463771 463950 && vanillaprop isEnableRepick 1: isEnableRepick: = 0;
