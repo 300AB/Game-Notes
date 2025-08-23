@@ -1,5 +1,5 @@
 Version 1.4.9T3
-
+ 
 Fixed some lingering issues after the ELDEN RING version update, such as crashes on Linux and the broken Sign of the All-Knowing functionality.
 
 Improved the effects of the Sapping Crystal Tears from the DLC. The effect lasts for 90 seconds instead of 60 and the restoration is easier to keep active.
