@@ -1,5 +1,5 @@
     param ShopLineupParam: proprange value 15000 50000: value: * 0.4;
-
+ 
     param ShopLineupParam: id 100231: Name: = [Iji] Infinite Lost Ashes;
     param ShopLineupParam: id 100231: equipId: = 10070;
     param ShopLineupParam: id 100231: value: = 50000;

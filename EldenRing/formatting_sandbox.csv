@@ -12,7 +12,7 @@ ID,Name,equipId,value,mtrlId,eventFlag_forStock,eventFlag_forRelease,sellQuantit
 101875,[Twin Maiden Husks] Knight Armor,10070,25000,-1,250460,9105,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
 899002,,10070,10000,-1,0,0,-1,0,3,0,0,1,0,1,-1,-1,227029,0,[0|0]
 100231,[Iji] Infinite Lost Ashes,10070,50000,-1,120270,0,-1,0,3,0,0,1,0,1,-1,-1,-1,-1,[0|0]
-
+ 
 ID,Name,                                    SfxId,WindSfxId,GroundHitSfxId,SoundId,WetTime,GparamId,NextLotIngameSecondsMin,NextLotIngameSecondsMax,WetSpEffectId00,WetSpEffectId01,WetSpEffectId02,WetSpEffectId03,WetSpEffectId04,SfxIdInoor,SfxIdOutdoor,aiSightRate,DistViewWeatherGparamOverrideWeight,
 20,Rain (EMEVD weather enum 1),            806100,   808006,1004010,806100,20,20,7200,18000,4650,4600,-1,-1,-1,-1,-1    ,1,0.3
 21,Rainy Clouds (EMEVD weather enum 8),    806100,   808006,1004010,806100,20,20,7200,18000,4651,4601,-1,-1,-1,-1,-1    ,0.9,0.3
