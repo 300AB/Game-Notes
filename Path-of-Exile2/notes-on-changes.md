@@ -86,17 +86,6 @@
     *    Perfect  
          * Lesser Essences will be more abundant throughout the campaign, giving you an easier time upgrading your items.  
          * Perfect Essences are also a new tier, providing powerful bonuses, not just a higher magnitude of the lower tier Essences.  
-### Exceptional Items  
-* New Exceptional Bases will drop, having higher quality or extra sockets.  
-    *    Exceptional Unique items also exist!  
-### Sanctified Items (new version to corrupting an item?)  
-* Sanctified Items are a new way to try and create the best items.  
-* This will randomize the value of modifiers anywhere rom 80% to 120%  
-    *    Meaning you can reach values higher than possible before.  
-* Sanctified Items can no longer be crafted upon, so this will often be the  final step of crafting a mirror-tier item.  
-* We saw a Omen being applied to a Divine Orb to sanctify and item upon use.  
-    * New Omens
-    * Hinekora's Lock added (idk what that is)
 
 
 # Meta Notes / Added Mechanics  
@@ -110,6 +99,17 @@
 * Maps will have more monsters from the Abyss to fight; 
     * Defeating Abyss Monsters will lead to a new currency type, "Bones."  
     * These Bones can be applied to specific items, granting them an extra modifier that you can choose from a pool of 3.  
+### Exceptional Items  
+* New Exceptional Bases will drop, having higher quality or extra sockets.  
+    *    Exceptional Unique items also exist!  
+### Sanctified Items (new version to corrupting an item?)  
+* Sanctified Items are a new way to try and create the best items.  
+* This will randomize the value of modifiers anywhere rom 80% to 120%  
+    *    Meaning you can reach values higher than possible before.  
+* Sanctified Items can no longer be crafted upon, so this will often be the  final step of crafting a mirror-tier item.  
+* We saw a Omen being applied to a Divine Orb to sanctify and item upon use.  
+    * New Omens
+    * Hinekora's Lock added (idk what that is)
 
 
 # Pacing
