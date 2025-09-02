@@ -87,6 +87,34 @@
          * Lesser Essences will be more abundant throughout the campaign, giving you an easier time upgrading your items.  
          * Perfect Essences are also a new tier, providing powerful bonuses, not just a higher magnitude of the lower tier Essences.  
 
+### Abyssal Notes  
+* Darkness enthroned belt
+* Talismans were added last season (another socketed type)
+* Belt has 2 sockets; can be head type or body however maybe more
+* Range of boosted socket is prolly 50-100%
+* There's new runes e.g, move speed, dmg taken before mana, es recharge 50%
+* 
+
+### Buff nerf notes
+* lightning spear
+  * no more bonus 50% dmg to lightning spear for consuming frenzy charge
+    * limited to 5 bolts instead of 3-8
+* bloodmage
+  * 
+
+### dawn of hunt notes
+* talismens
+* upgradable runes 3 = next tier
+* vaal orbs can no longer round down 1 to 0
+* breech ring quality being 40% max nott 50%
+* lock main / offhand so you can use same items in weapon sets (no more needing dup)
+* respec acendency if said trial is max tier one you've done
+* flask tab can store charms
+* socketable tab exists
+* ritual tab exists
+* refund all points button exists if you can afford it
+* new runes new soulcores
+* PLAYERS CAN REVIVE OTHERS NOT IN BOSS AREA IN MAPS
 
 # Meta Notes / Added Mechanics  
 ### Major Trade Update  
